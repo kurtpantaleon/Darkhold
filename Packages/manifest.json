@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.github.siccity.xnode": "file:C:/Users/Kurt Pantaleon/Downloads/GameDev2/xNode-1.8.0",
+    "com.github.siccity.xnode": "file:C:/Users/Kurt Pantaleon/Documents/GitHub/Darkhold/xNode-1.8.0",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.31",
