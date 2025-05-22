@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "com.github.siccity.xnode": {
-      "version": "file:C:/Users/jenne/Documents/GitHub/Darkhold/xNode-1.8.0",
+      "version": "https://github.com/Siccity/xNode.git#1.8.0",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "8ef01722c4f8297866f98ed82a69a3f8aed218a9"
     },
     "com.unity.2d.animation": {
       "version": "10.1.4",
