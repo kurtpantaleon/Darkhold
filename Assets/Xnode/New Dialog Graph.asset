@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -440, y: 680}
+  position: {x: -200, y: -88}
   ports:
     keys:
     - entry
@@ -75,11 +75,14 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: Habang kami ay naglalakad....
+  dialogText: "He turns, his hand sweeping toward the city beyond. \u201CIcarus is
+    dying. The Aether Nexus\u2014the artifact that holds this city aloft\u2014is
+    failing.\u201D As if to confirm his words, the ground beneath you trembles slightly,
+    and distant magical lanterns flicker erratically."
   exit: 
   actorImage: {fileID: 7584875828100514122, guid: a4234d04fbec68843895deb555ed0049, type: 3}
   backgroundMusic: 1
-  backgroundImage: {fileID: 5933292986450474473, guid: 8295ee9df1c97da4599f7358e9acf87a, type: 3}
+  backgroundImage: {fileID: -6219029098702994954, guid: 1b24ea427fba6e44da3c51acfb3ea844, type: 3}
   slideInActor: 1
 --- !u!114 &-2161470455387367411
 MonoBehaviour:
@@ -94,7 +97,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1064, y: 88}
+  position: {x: -1064, y: -88}
   ports:
     keys:
     - entry
@@ -128,12 +131,16 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: Kami ay mag kakapatid na nawala sa mall
+  dialogText: "All of you were doing your own thing and a sudden darkness. A brief
+    sensation of weightlessness. The sound of crackling energy fills your ears. Then\u2014light
+    erupts around you. Your feet touch solid ground as a circle of radiant glyphs
+    pulses beneath you. The air is thick with arcane power, and the scent of ozone
+    lingers."
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 2
-  backgroundImage: {fileID: 5933292986450474473, guid: 8295ee9df1c97da4599f7358e9acf87a, type: 3}
-  slideInActor: 1
+  backgroundImage: {fileID: -7577199750807043397, guid: 7b5ce083c5d2bbb49a5746d316b1749c, type: 3}
+  slideInActor: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,7 +172,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -136, y: 904}
+  position: {x: 168, y: -88}
   ports:
     keys:
     - entry
@@ -196,11 +203,14 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: Nawala ulit ang aming Itay
+  dialogText: "He turns his piercing gaze upon you. \u201CSomething down there is
+    breaking the Nexus. And if it is not stopped, Icarus will be no more.\u201D A
+    pause. Then, his voice lowers, questioning. \u201CBut before we send you into
+    the unknown\u2026 who are you?\u201D"
   exit: 
   actorImage: {fileID: 21300000, guid: 4052675bcda85514fac88e0a26a9a3bd, type: 3}
   backgroundMusic: 0
-  backgroundImage: {fileID: 5933292986450474473, guid: 8295ee9df1c97da4599f7358e9acf87a, type: 3}
+  backgroundImage: {fileID: 4191397964613073562, guid: 7b7cc213715453f4fa2411b6bfde2ded, type: 3}
   slideInActor: 1
 --- !u!114 &7742328259975825851
 MonoBehaviour:
@@ -215,7 +225,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -504, y: 248}
+  position: {x: -616, y: -88}
   ports:
     keys:
     - entry
@@ -246,9 +256,14 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: Nahanap namin ang aming Itay
+  dialogText: "From the edge of the summoning platform, two figures approach. The
+    first is Archmage Cassiel Vaelthorne... His violet eyes glow with arcane wisdom,
+    yet his expression is grim. Beside him stands High Inquisitor Dain Malrik...
+    his arms crossed in quiet scrutiny. Cassiel gestures, and the magic of the summoning
+    circle fades. His voice is calm but urgent: \u201CYou stand here because you
+    are among the most capable wielders of magic and scholars of the arcane.\u201D"
   exit: 
   actorImage: {fileID: 21300000, guid: e9efe1fc5a781104191fb5696795e210, type: 3}
   backgroundMusic: 3
-  backgroundImage: {fileID: 5933292986450474473, guid: 8295ee9df1c97da4599f7358e9acf87a, type: 3}
+  backgroundImage: {fileID: 1110547267115523954, guid: 35b9b65d7fa180d46acae8d50bb30e93, type: 3}
   slideInActor: 0
