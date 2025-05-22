@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.github.siccity.xnode": {
-      "version": "file:C:/Users/Kurt Pantaleon/Documents/GitHub/Darkhold/xNode-1.8.0",
+      "version": "file:C:/Users/jenne/Documents/GitHub/Darkhold/xNode-1.8.0",
       "depth": 0,
       "source": "local",
       "dependencies": {}
