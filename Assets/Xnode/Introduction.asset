@@ -89,11 +89,15 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: Ang pagsakop ni marites
+  dialogText: "All of you were doing your own thing and a sudden darkness. A brief
+    sensation of weightlessness. The sound of crackling energy fills your ears. Then\u2014light
+    erupts around you. Your feet touch solid ground as a circle of radiant glyphs
+    pulses beneath you. The air is thick with arcane power, and the scent of ozone
+    lingers."
   exit: 
-  actorImage: {fileID: -855298285791758126, guid: 3e2dc66b28cc209429eb28319144448e, type: 3}
+  actorImage: {fileID: -3480606835806699306, guid: 3b4f47255a73a6543961ced68ee7687f, type: 3}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -855298285791758126, guid: 3e2dc66b28cc209429eb28319144448e, type: 3}
   slideInActor: 0
 --- !u!114 &8472494947347105659
 MonoBehaviour:
