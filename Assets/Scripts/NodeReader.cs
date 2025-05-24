@@ -48,7 +48,8 @@ public class NodeReader : MonoBehaviour
 
     public BaseNode GetStartNode()
     {
-            return graph.nodes.Find(node => node is BaseNode && node.name == "Start") as BaseNode;
+            return graph.nodes.Find(node => node is BaseNode && node.name == "Start") as BaseNode;// para lang null checker
+            
     }
 
 
@@ -90,7 +91,7 @@ public class NodeReader : MonoBehaviour
         else if(node is AbilityCheckNode)
         {
             int d20 = Random.Range(0,21);
-            if((d20+characterSheet.gameObject.GetComponent<CharacterStats>().wisdom)>=((AbilityCheckNode)node).getDC()){
+            if((d20+characterSheet.gameObject.GetComponent<CharacterStats>().survival)>=((AbilityCheckNode)node).getDC()){
                 return currentNode.GetOutputPort("success")?.Connection.node as BaseNode;
             }
             else

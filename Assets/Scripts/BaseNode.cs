@@ -4,7 +4,7 @@ using UnityEngine;
 using XNode;
 
 public class BaseNode : Node {
-
+//idea lang rito is gawen mo lahat method na gagawen mo for all other nodes
 	public virtual string getDialogText()
 	{
 		return "";
