@@ -23,7 +23,10 @@ MonoBehaviour:
       _node: {fileID: -8202886693755026770}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 8653998515078797681}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -32,7 +35,10 @@ MonoBehaviour:
       _node: {fileID: -8202886693755026770}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 1662482368627898002}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -45,7 +51,7 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -6470460504253458178, guid: 9e98026808c98dc4c9a4e92210e4780b, type: 3}
   slideInActor: 0
 --- !u!114 &-2641315984836367988
 MonoBehaviour:
@@ -98,6 +104,10 @@ MonoBehaviour:
   - {fileID: 556470907614847673}
   - {fileID: 4278375363146279385}
   - {fileID: 5434460570875897761}
+  - {fileID: 7036754702927025482}
+  - {fileID: 6358290375708521404}
+  - {fileID: 6326998616548107777}
+  - {fileID: 4257184033434674942}
 --- !u!114 &556470907614847673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +131,10 @@ MonoBehaviour:
       _node: {fileID: 556470907614847673}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 1662482368627898002}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -130,7 +143,10 @@ MonoBehaviour:
       _node: {fileID: 556470907614847673}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 4278375363146279385}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -143,7 +159,7 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 4130640169021434097, guid: 9867881041a12c64eab683991d80ad52, type: 3}
   slideInActor: 0
 --- !u!114 &1662482368627898002
 MonoBehaviour:
@@ -168,7 +184,10 @@ MonoBehaviour:
       _node: {fileID: 1662482368627898002}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: -8202886693755026770}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -177,7 +196,10 @@ MonoBehaviour:
       _node: {fileID: 1662482368627898002}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 556470907614847673}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -191,8 +213,88 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -4178046375966092550, guid: d38e78b5b10d58341b1d701f8a87cff3, type: 3}
   slideInActor: 0
+--- !u!114 &4257184033434674942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043e4d0109f81f14496d7af00f311c39, type: 3}
+  m_Name: Simple Dialog V3
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 248, y: -1848}
+  ports:
+    keys:
+    - entry
+    - exit
+    - choiceA
+    - choiceB
+    - choiceC
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4257184033434674942}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4257184033434674942}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choiceA
+      _node: {fileID: 4257184033434674942}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choiceB
+      _node: {fileID: 4257184033434674942}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choiceC
+      _node: {fileID: 4257184033434674942}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: 
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+  slideInActor: 0
+  choiceA: 
+  choiceB: 
+  choiceC: 
+  choiceAText: 
+  choiceBText: 
+  choiceCText: 
 --- !u!114 &4278375363146279385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +308,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -107.86449, y: -1065.0776}
+  position: {x: -136, y: -1224}
   ports:
     keys:
     - entry
@@ -216,7 +318,10 @@ MonoBehaviour:
       _node: {fileID: 4278375363146279385}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 556470907614847673}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -225,7 +330,10 @@ MonoBehaviour:
       _node: {fileID: 4278375363146279385}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 5434460570875897761}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -238,7 +346,7 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -6953090037489088080, guid: e491d5ad41c22d74a9d9280e00467cb4, type: 3}
   slideInActor: 0
 --- !u!114 &5434460570875897761
 MonoBehaviour:
@@ -253,7 +361,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 136, y: -1064}
+  position: {x: 120, y: -1224}
   ports:
     keys:
     - entry
@@ -263,7 +371,10 @@ MonoBehaviour:
       _node: {fileID: 5434460570875897761}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 4278375363146279385}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -290,6 +401,94 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
+  backgroundImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
+  slideInActor: 0
+--- !u!114 &6326998616548107777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1048, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6326998616548107777}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6326998616548107777}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: 
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
+--- !u!114 &6358290375708521404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 744, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6358290375708521404}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6358290375708521404}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: 
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
   backgroundImage: {fileID: 0}
   slideInActor: 0
 --- !u!114 &6876661409029563497
@@ -305,7 +504,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -120, y: -1432}
+  position: {x: -24, y: -1560}
   ports:
     keys:
     - entry
@@ -344,6 +543,50 @@ MonoBehaviour:
   b: 
   dialogText: 
   dialogImage: {fileID: 0}
+--- !u!114 &7036754702927025482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 424, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7036754702927025482}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 7036754702927025482}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: 
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &8170167910855832320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +600,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1384, y: -1224}
+  position: {x: -1400, y: -1224}
   ports:
     keys:
     - entry
@@ -379,7 +622,10 @@ MonoBehaviour:
       _node: {fileID: 8170167910855832320}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 8653998515078797681}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -449,7 +695,10 @@ MonoBehaviour:
       _node: {fileID: 8653998515078797681}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 8170167910855832320}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -458,7 +707,10 @@ MonoBehaviour:
       _node: {fileID: 8653998515078797681}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -8202886693755026770}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -473,5 +725,5 @@ MonoBehaviour:
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 8517870006439156754, guid: ae4b27acb838fa747b5099323601e381, type: 3}
   slideInActor: 0
