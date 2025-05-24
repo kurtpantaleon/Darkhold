@@ -855,7 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624546f9210113d40909db5c275c1ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wisdom: -1
+  survival: 0
   hp: 20
 --- !u!4 &1096139517
 Transform:
@@ -1382,17 +1382,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b651ca9a9c0440c459b1437b80361a07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: {fileID: 0}
+  dialog: {fileID: 1288533003}
   backgroundImage: {fileID: 0}
-  ImageGO: {fileID: 0}
-  graph: {fileID: 0}
+  ImageGO: {fileID: 702608398}
+  graph: {fileID: 11400000, guid: e09c960a0811d8a40a4a9e0252287476, type: 2}
   currentNode: {fileID: 0}
-  characterSheet: {fileID: 0}
-  buttonAText: {fileID: 0}
-  buttonBText: {fileID: 0}
-  buttonA: {fileID: 0}
-  buttonB: {fileID: 0}
-  nextButtonGO: {fileID: 0}
+  characterSheet: {fileID: 1096139515}
+  buttonAText: {fileID: 1897370751}
+  buttonBText: {fileID: 157906587}
+  buttonA: {fileID: 1549739733}
+  buttonB: {fileID: 782444161}
+  nextButtonGO: {fileID: 1466909011}
   audioSource: {fileID: 0}
   suspenseClip: {fileID: 0}
   adventureClip: {fileID: 0}
