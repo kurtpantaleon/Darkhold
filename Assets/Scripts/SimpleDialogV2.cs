@@ -6,7 +6,7 @@ using XNode;
 public class SimpleDialogV2 : BaseNode {
 
 	[Input] public string entry;
-    [TextArea] public string dialogText;
+    [TextArea (10, 20)] public string dialogText;
     [Output] public string  exit;
     public Sprite actorImage;
     public BackgroundMusicType backgroundMusic;

@@ -1,5 +1,52 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8202886693755026770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -888, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8202886693755026770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -8202886693755026770}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "He turns, his hand sweeping toward the city beyond. \u201CIcarus is
+    dying. The Aether Nexus\u2014the artifact that holds this city aloft\u2014is
+    failing.\u201D As if to confirm his words, the ground beneath you trembles slightly,
+    and distant magical lanterns flicker erratically."
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &-2641315984836367988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +60,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -424, y: -1256}
+  position: {x: -376, y: -1432}
   ports:
     keys:
     - entry
@@ -46,6 +93,205 @@ MonoBehaviour:
   - {fileID: 8653998515078797681}
   - {fileID: -2641315984836367988}
   - {fileID: 6876661409029563497}
+  - {fileID: -8202886693755026770}
+  - {fileID: 1662482368627898002}
+  - {fileID: 556470907614847673}
+  - {fileID: 4278375363146279385}
+  - {fileID: 5434460570875897761}
+--- !u!114 &556470907614847673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -392, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 556470907614847673}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 556470907614847673}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "He turns his piercing gaze upon you. \u201CSomething down there is
+    breaking the Nexus. And if it is not stopped, Icarus will be no more.\u201D A
+    pause. Then, his voice lowers, questioning. \u201CBut before we send you into
+    the unknown\u2026 who are you?\u201D"
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
+--- !u!114 &1662482368627898002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -632, y: -1224}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 1662482368627898002}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 1662482368627898002}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "Cassiel waves his hand, conjuring an illusion of Icarus above his
+    palm. The ley lines running through the city flicker like dying embers. Beneath
+    the floating island, something dark stirs within its foundation. \u201COur divinations
+    have traced the disturbance to the Forgotten Ruins beneath Icarus\u2014Nyxholm,
+    a place abandoned long ago, erased from history.\u201D"
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
+--- !u!114 &4278375363146279385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -107.86449, y: -1065.0776}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4278375363146279385}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4278375363146279385}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: 'GM Notes: Player Introductions Encourage players to introduce their
+    characters and describe their connection to Icarus. They can reveal: Name and
+    title, Magical abilities or skills, How they feel about this mission. If players
+    have questions, Cassiel and Malrik provide insight.'
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
+--- !u!114 &5434460570875897761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e258ccc1b46a33345a54c2928f760057, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 136, y: -1064}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5434460570875897761}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 5434460570875897761}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "Nyxholm \nCassiel: \u201CNyxholm was once part of Icarus\u2014a city
+    beneath a city... But something\u2026 went wrong. It was sealed away, erased
+    from history.\u201D \nMalrik snorts. \u201CThat means whatever was locked down
+    there is still there.\u201D \nAether Nexus \nCassiel: \u201CThe Nexus binds the
+    ley lines that keep Icarus aloft... If we do not stop it\u2026\u201D \nThe ground
+    shudders slightly beneath you. \nMalrik: \u201CWe fall.\u201D \nDanger in Nyxholm
+    \nCassiel: \u201CArcane remnants. Wards and constructs meant to guard secrets.
+    Perhaps even\u2026 something worse.\u201D \nMalrik\u2019s voice is low and grim.
+    \u201CWhatever was left down there has had centuries to fester. Expect the worst.\u201D"
+  exit: 
+  actorImage: {fileID: 0}
+  backgroundMusic: 0
+  backgroundImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &6876661409029563497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,7 +305,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -408, y: -1080}
+  position: {x: -120, y: -1432}
   ports:
     keys:
     - entry
@@ -193,7 +439,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1080, y: -1224}
+  position: {x: -1144, y: -1224}
   ports:
     keys:
     - entry
@@ -218,7 +464,12 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: 
+  dialogText: "From the edge of the summoning platform, two figures approach. The
+    first is Archmage Cassiel Vaelthorne... His violet eyes glow with arcane wisdom,
+    yet his expression is grim. Beside him stands High Inquisitor Dain Malrik...
+    his arms crossed in quiet scrutiny. Cassiel gestures, and the magic of the summoning
+    circle fades. His voice is calm but urgent: \u201CYou stand here because you
+    are among the most capable wielders of magic and scholars of the arcane.\u201D"
   exit: 
   actorImage: {fileID: 0}
   backgroundMusic: 0
