@@ -18,8 +18,10 @@ public class NodeReader : MonoBehaviour
 
     public TMP_Text buttonAText;
     public TMP_Text buttonBText;
+
     public GameObject buttonA;
     public GameObject buttonB;
+
     public GameObject nextButtonGO;
 
     public AudioSource audioSource;
@@ -70,28 +72,34 @@ public class NodeReader : MonoBehaviour
 
     private BaseNode GetNextNode(BaseNode node)
     {
-        if(node is MultipleChoiceDialog)
+        if (node is MultipleChoiceDialog)
         {
             GameObject clickButton = EventSystem.current.currentSelectedGameObject;
 
             TMP_Text buttonText = clickButton.GetComponentInChildren<TMP_Text>();
 
-            if(buttonText.text == (""+((MultipleChoiceDialog)node).a))
+            if (buttonText.text == ("" + ((MultipleChoiceDialog)node).a))
             {
                 return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
             }
-            if(buttonText.text == (""+((MultipleChoiceDialog)node).b))
+            if (buttonText.text == ("" + ((MultipleChoiceDialog)node).b))
             {
                 return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
             }
             
+
             return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
+
+            
+            
+            
             
         }
-        else if(node is AbilityCheckNode)
+        else if (node is AbilityCheckNode)
         {
-            int d20 = Random.Range(0,21);
-            if((d20+characterSheet.gameObject.GetComponent<CharacterStats>().survival)>=((AbilityCheckNode)node).getDC()){
+            int d20 = Random.Range(0, 21);
+            if ((d20 + characterSheet.gameObject.GetComponent<CharacterStats>().survival) >= ((AbilityCheckNode)node).getDC())
+            {
                 return currentNode.GetOutputPort("success")?.Connection.node as BaseNode;
             }
             else
@@ -101,7 +109,7 @@ public class NodeReader : MonoBehaviour
         }
         else
         {
-               return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+            return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
         }
          
     }
@@ -143,28 +151,29 @@ public class NodeReader : MonoBehaviour
         buttonB.SetActive(false);
         nextButtonGO.SetActive(true);
     }
+  
     else
-    {
-        buttonA.SetActive(false);
-        buttonB.SetActive(false);
-        nextButtonGO.SetActive(true);
-    }
+        {
+            buttonA.SetActive(false);
+            buttonB.SetActive(false);
+            nextButtonGO.SetActive(true);
+        }
 
     // 🎵 Background Music
-        if (node is SimpleDialogV2 SimpleDialogV)
+        if (node is SimpleDialogV4 SimpleDialogV)
         {
             switch (SimpleDialogV.backgroundMusic)
             {
-                case SimpleDialogV2.BackgroundMusicType.SUSPENSE:
+                case SimpleDialogV4.BackgroundMusicType.SUSPENSE:
                     audioSource.clip = suspenseClip;
                     break;
-                case SimpleDialogV2.BackgroundMusicType.ADVENTURE:
+                case SimpleDialogV4.BackgroundMusicType.ADVENTURE:
                     audioSource.clip = adventureClip;
                     break;
-                case SimpleDialogV2.BackgroundMusicType.DRAMA:
+                case SimpleDialogV4.BackgroundMusicType.DRAMA:
                     audioSource.clip = dramaClip;
                     break;
-                case SimpleDialogV2.BackgroundMusicType.HAPPY:
+                case SimpleDialogV4.BackgroundMusicType.HAPPY:
                     audioSource.clip = happyClip;
                     break;
             }
