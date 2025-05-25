@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -344, y: -312}
+  position: {x: -1112, y: -344}
   ports:
     keys:
     - entry
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -680, y: -712}
+  position: {x: -1448, y: -744}
   ports:
     keys:
     - entry
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -360, y: -664}
+  position: {x: -1128, y: -696}
   ports:
     keys:
     - entry
@@ -484,7 +484,8 @@ MonoBehaviour:
   entry: 
   a: 
   b: 
-  dialogText: Left
+  dialogText: ' You step into the corridor. Arcane symbols flicker softly. The air
+    pulses with a heartbeat rhythm.'
   dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &900125685826078127
