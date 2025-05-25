@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f66764fa9ef2d54e91e3a2672419039
+guid: 3c1b63ad8f7a3ef41a0e096d581164f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1367291550803677559
-    second: elf_0
+      213: 1917426362876270833
+    second: BTN1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elf_0
+      name: BTN1_0
       rect:
         serializedVersion: 2
-        x: 856
-        y: 62
-        width: 568
-        height: 1381
+        x: 11
+        y: 0
+        width: 1525
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98e24f92497660de0800000000000000
-      internalID: -1367291550803677559
+      spriteID: 1f8953a3e111c9a10800000000000000
+      internalID: 1917426362876270833
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      elf_0: -1367291550803677559
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

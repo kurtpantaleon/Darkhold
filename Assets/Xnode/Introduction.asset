@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 696, y: -648}
+  position: {x: 584, y: -744}
   ports:
     keys:
     - entry
@@ -44,7 +44,10 @@ MonoBehaviour:
       _node: {fileID: -8655538871700710395}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 6848327707488887144}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -194,7 +197,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1016, y: 40}
+  position: {x: -984, y: -296}
   ports:
     keys:
     - entry
@@ -272,7 +275,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1016, y: -408}
+  position: {x: -984, y: -712}
   ports:
     keys:
     - entry
@@ -321,7 +324,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1400, y: -632}
+  position: {x: -1272, y: -696}
   ports:
     keys:
     - entry
@@ -558,7 +561,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1656, y: -648}
+  position: {x: -1528, y: -712}
   ports:
     keys:
     - entry
@@ -646,6 +649,55 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: -855298285791758126, guid: 3e2dc66b28cc209429eb28319144448e, type: 3}
   backgroundMusic: 0
+--- !u!114 &-838480396572400635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1992, y: -744}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -838480396572400635}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6739246138001640634}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -838480396572400635}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5712998617198430810}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: ' A floating pedestal holds strange, rune-infused relics. Light dances
+    around you.'
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &-666053629745349635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +762,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 312, y: -632}
+  position: {x: 280, y: -744}
   ports:
     keys:
     - entry
@@ -823,6 +875,117 @@ MonoBehaviour:
   - {fileID: -49252389124333527}
   - {fileID: -5216767645869338894}
   - {fileID: -8655538871700710395}
+  - {fileID: 6848327707488887144}
+  - {fileID: 803440520185284097}
+  - {fileID: 829086890718357782}
+  - {fileID: 6739246138001640634}
+  - {fileID: -838480396572400635}
+  - {fileID: 5712998617198430810}
+--- !u!114 &803440520185284097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1160, y: -744}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 803440520185284097}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: 6848327707488887144}
+        reroutePoints: []
+      - fieldName: b
+        node: {fileID: 6848327707488887144}
+        reroutePoints: []
+      - fieldName: d
+        node: {fileID: 6848327707488887144}
+        reroutePoints: []
+      - fieldName: c
+        node: {fileID: 6848327707488887144}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 803440520185284097}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 829086890718357782}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: ' The voice is a decaying spell, echoing endlessly.'
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &829086890718357782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1448, y: -744}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 829086890718357782}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 803440520185284097}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 829086890718357782}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6739246138001640634}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: " It\u2019s a warning, not a lure. Something is bound below."
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &900125685826078127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,7 +1262,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1928, y: -648}
+  position: {x: -1800, y: -712}
   ports:
     keys:
     - entry
@@ -1142,6 +1305,85 @@ MonoBehaviour:
 '
   exit: 
   backgroundImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
+  backgroundMusic: 0
+--- !u!114 &5712998617198430810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2280, y: -744}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5712998617198430810}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -838480396572400635}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: 5712998617198430810}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: 5712998617198430810}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: 5712998617198430810}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: 5712998617198430810}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: Aetherlight Lantern
+  b: Echo Gauntlet
+  c: Whisperbound Charm
+  d: 
+  dialogText: ' Choose one item: (If Whisperbound Charm is selected, whisper effects
+    continue later.)'
+  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &6102758729628216067
 MonoBehaviour:
@@ -1223,6 +1465,145 @@ MonoBehaviour:
   d: 
   dialogText: "\n At the corridor\u2019s end is a sealed archway of pulsing runes.
     A puzzle awaits three glowing sigils and a missing pattern.\n"
+  dialogImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &6739246138001640634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1736, y: -744}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6739246138001640634}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 829086890718357782}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6739246138001640634}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -838480396572400635}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: ' You step carefully across the broken bridge. The void hums below.'
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &6848327707488887144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 856, y: -744}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6848327707488887144}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -8655538871700710395}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: 6848327707488887144}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 803440520185284097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: 6848327707488887144}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 803440520185284097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: 6848327707488887144}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 803440520185284097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: 6848327707488887144}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 803440520185284097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: Listen Closely
+  b: Use Chronicle
+  c: Cross with Magic
+  d: Jump Across
+  dialogText: ' The Chronicle glows faintly, then turns a page, showing a schematic
+    of the Heart of Nyxholm a massive arcane core.'
   dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &8472494947347105659
