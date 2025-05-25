@@ -1,5 +1,60 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8655538871700710395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 696, y: -648}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8655538871700710395}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -49252389124333527}
+        reroutePoints: []
+      - fieldName: b
+        node: {fileID: -49252389124333527}
+        reroutePoints: []
+      - fieldName: c
+        node: {fileID: -49252389124333527}
+        reroutePoints: []
+      - fieldName: d
+        node: {fileID: -49252389124333527}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -8655538871700710395}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: ' As the seal fades, the corridor lights up with ancient glyphs. You
+    descend into a vault untouched by time.'
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &-5973269392443579270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,7 +78,10 @@ MonoBehaviour:
       _node: {fileID: -5973269392443579270}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: -5347526606392380681}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -32,7 +90,10 @@ MonoBehaviour:
       _node: {fileID: -5973269392443579270}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -49252389124333527}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -93,7 +154,10 @@ MonoBehaviour:
       _node: {fileID: -5347526606392380681}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: 6102758729628216067}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -102,7 +166,10 @@ MonoBehaviour:
       _node: {fileID: -5347526606392380681}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -5973269392443579270}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -127,13 +194,14 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1160, y: 216}
+  position: {x: -1016, y: 40}
   ports:
     keys:
     - entry
     - a
     - b
     - c
+    - d
     values:
     - _fieldName: entry
       _node: {fileID: -5279316983225639390}
@@ -174,12 +242,71 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -5279316983225639390}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   entry: 
   a: 
   b: 
   c: 
+  d: 
   dialogText: Right
   dialogImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &-5216767645869338894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1016, y: -408}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -5216767645869338894}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -4972477127492706540}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -5216767645869338894}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6102758729628216067}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: ' You step into the corridor. Arcane symbols flicker softly. The air
+    pulses with a heartbeat rhythm.'
+  exit: 
+  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-4972477127492706540
 MonoBehaviour:
@@ -201,6 +328,7 @@ MonoBehaviour:
     - a
     - b
     - c
+    - d
     values:
     - _fieldName: entry
       _node: {fileID: -4972477127492706540}
@@ -220,7 +348,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 636952148582669805}
+        node: {fileID: -5216767645869338894}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -247,10 +375,20 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -4972477127492706540}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   entry: 
   a: 'Left Path: Arcane Corridor '
   b: 'Right Path: Whispering Abyss '
   c: 
+  d: 
   dialogText: '"Nyxholm was the last frontier of our knowledge. Some doors were never
     meant to be opened."'
   dialogImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
@@ -559,6 +697,96 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 4113829005332862926, guid: cdd217edbda59354eb6b16ee916fc8e6, type: 3}
   backgroundMusic: 0
+--- !u!114 &-49252389124333527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: -632}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: -49252389124333527}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -5973269392443579270}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -49252389124333527}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8655538871700710395}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -49252389124333527}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8655538871700710395}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: -49252389124333527}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8655538871700710395}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -49252389124333527}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8655538871700710395}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: Spellforged Bracers
+  b: Aetherwoven Cloak
+  c: "Archivist\u2019s Ring"
+  d: 
+  dialogText: ' You find a chamber of relics left by the Arcanists. Choose one!'
+  dialogImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,88 +814,15 @@ MonoBehaviour:
   - {fileID: -2694574767792645116}
   - {fileID: -5481349789670664968}
   - {fileID: -4972477127492706540}
-  - {fileID: 636952148582669805}
   - {fileID: -5279316983225639390}
   - {fileID: 5520511667802121778}
   - {fileID: -1795220080086546366}
   - {fileID: 6102758729628216067}
-  - {fileID: 4774827335425417603}
   - {fileID: -5347526606392380681}
   - {fileID: -5973269392443579270}
---- !u!114 &636952148582669805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
-  m_Name: Multiple Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -1160, y: -120}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    values:
-    - _fieldName: entry
-      _node: {fileID: 636952148582669805}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: a
-        node: {fileID: -4972477127492706540}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 636952148582669805}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 6102758729628216067}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 636952148582669805}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 4774827335425417603}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: 636952148582669805}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: 
-  b: 
-  c: 
-  dialogText: ' You step into the corridor. Arcane symbols flicker softly. The air
-    pulses with a heartbeat rhythm.'
-  dialogImage: {fileID: 0}
-  backgroundMusic: 0
+  - {fileID: -49252389124333527}
+  - {fileID: -5216767645869338894}
+  - {fileID: -8655538871700710395}
 --- !u!114 &900125685826078127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,73 +976,6 @@ MonoBehaviour:
     the unknown\u2026 who are you?\u201D"
   exit: 
   backgroundImage: {fileID: 4130640169021434097, guid: 9867881041a12c64eab683991d80ad52, type: 3}
-  backgroundMusic: 0
---- !u!114 &4774827335425417603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
-  m_Name: Multiple Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -664, y: -392}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    values:
-    - _fieldName: entry
-      _node: {fileID: 4774827335425417603}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: b
-        node: {fileID: 636952148582669805}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 4774827335425417603}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 4774827335425417603}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: 4774827335425417603}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: 
-  b: 
-  c: 
-  dialogText: 
-  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &5384673542416476721
 MonoBehaviour:
@@ -1075,14 +1163,15 @@ MonoBehaviour:
     - a
     - b
     - c
+    - d
     values:
     - _fieldName: entry
       _node: {fileID: 6102758729628216067}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: a
-        node: {fileID: 636952148582669805}
+      - fieldName: exit
+        node: {fileID: -5216767645869338894}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1092,7 +1181,10 @@ MonoBehaviour:
       _node: {fileID: 6102758729628216067}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -5347526606392380681}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1115,10 +1207,20 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: 6102758729628216067}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   entry: 
   a: Attempt the Puzzle
   b: Use Chronicle to Solve Instantly
   c: 
+  d: 
   dialogText: "\n At the corridor\u2019s end is a sealed archway of pulsing runes.
     A puzzle awaits three glowing sigils and a missing pattern.\n"
   dialogImage: {fileID: 0}

@@ -18,9 +18,13 @@ public class NodeReader : MonoBehaviour
 
     public TMP_Text buttonAText;
     public TMP_Text buttonBText;
+    public TMP_Text buttonCText;
+    public TMP_Text buttonDText;
 
     public GameObject buttonA;
     public GameObject buttonB;
+    public GameObject buttonC;
+    public GameObject buttonD;
 
     public GameObject nextButtonGO;
 
@@ -41,20 +45,17 @@ public class NodeReader : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-    if (audioSource == null) {
-        audioSource = gameObject.AddComponent<AudioSource>();
-    }
+        if (audioSource == null) {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
         currentNode = GetStartNode();
         AdvanceDialog();
     }
 
     public BaseNode GetStartNode()
     {
-            return graph.nodes.Find(node => node is BaseNode && node.name == "Start") as BaseNode;// para lang null checker
-            
+        return graph.nodes.Find(node => node is BaseNode && node.name == "Start") as BaseNode;
     }
-
-
 
     public void AdvanceDialog()
     {
@@ -78,22 +79,24 @@ public class NodeReader : MonoBehaviour
 
             TMP_Text buttonText = clickButton.GetComponentInChildren<TMP_Text>();
 
-            if (buttonText.text == ("" + ((MultipleChoiceDialog)node).a))
+            if (buttonText.text == ((MultipleChoiceDialog)node).a)
             {
                 return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
             }
-            if (buttonText.text == ("" + ((MultipleChoiceDialog)node).b))
+            if (buttonText.text == ((MultipleChoiceDialog)node).b)
             {
                 return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
             }
-            
+            if (buttonText.text == ((MultipleChoiceDialog)node).c)
+            {
+                return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
+            }
+            if (buttonText.text == ((MultipleChoiceDialog)node).d)
+            {
+                return currentNode.GetOutputPort("d")?.Connection.node as BaseNode;
+            }
 
             return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
-
-            
-            
-            
-            
         }
         else if (node is AbilityCheckNode)
         {
@@ -111,59 +114,76 @@ public class NodeReader : MonoBehaviour
         {
             return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
         }
-         
     }
 
     public void DisplayNode(BaseNode node) {
-    dialog.text = node.getDialogText();
-    backgroundImage = node.GetSprite();
-    ImageGO.GetComponent<UnityEngine.UI.Image>().sprite = backgroundImage;
+        dialog.text = node.getDialogText();
+        backgroundImage = node.GetSprite();
+        ImageGO.GetComponent<UnityEngine.UI.Image>().sprite = backgroundImage;
 
-    // 🎭 Set Actor Image
-    if (node is SimpleDialogV2 SimpleDialogV2) {
-        if (SimpleDialogV2.actorImage != null) {
-            actorImageTransform.GetComponent<UnityEngine.UI.Image>().sprite = SimpleDialogV2.actorImage;
-            actorImageTransform.gameObject.SetActive(true);
-        } else {
-            actorImageTransform.gameObject.SetActive(false); 
+        if (node is SimpleDialogV2 SimpleDialogV2) {
+            if (SimpleDialogV2.actorImage != null) {
+                actorImageTransform.GetComponent<UnityEngine.UI.Image>().sprite = SimpleDialogV2.actorImage;
+                actorImageTransform.gameObject.SetActive(true);
+            } else {
+                actorImageTransform.gameObject.SetActive(false); 
+            }
+
+            if (SimpleDialogV2.slideInActor) {
+                StartCoroutine(SlideActorIn());
+            } else {
+                actorImageTransform.anchoredPosition = onScreenPosition;
+            }
         }
 
-       
-        if (SimpleDialogV2.slideInActor) {
-            StartCoroutine(SlideActorIn());
-        } else {
-            actorImageTransform.anchoredPosition = onScreenPosition;
-        }
-    }
-    
+        if (node is MultipleChoiceDialog multipleChoiceNode) {
+            nextButtonGO.SetActive(false);
 
-    if (node is MultipleChoiceDialog multipleChoiceNode)
-    {
-        buttonA.SetActive(true);
-        buttonB.SetActive(true);
-        buttonAText.text = multipleChoiceNode.a;
-        buttonBText.text = multipleChoiceNode.b;
-        nextButtonGO.SetActive(false);
-    }
-    else if (node is SimpleDialogV4)
-    {
-        buttonA.SetActive(false);
-        buttonB.SetActive(false);
-        nextButtonGO.SetActive(true);
-    }
-  
-    else
-        {
+            if (!string.IsNullOrWhiteSpace(multipleChoiceNode.a)) {
+                buttonA.SetActive(true);
+                buttonAText.text = multipleChoiceNode.a;
+            } else {
+                buttonA.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(multipleChoiceNode.b)) {
+                buttonB.SetActive(true);
+                buttonBText.text = multipleChoiceNode.b;
+            } else {
+                buttonB.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(multipleChoiceNode.c)) {
+                buttonC.SetActive(true);
+                buttonCText.text = multipleChoiceNode.c;
+            } else {
+                buttonC.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(multipleChoiceNode.d)) {
+                buttonD.SetActive(true);
+                buttonDText.text = multipleChoiceNode.d;
+            } else {
+                buttonD.SetActive(false);
+            }
+        } 
+        else if (node is SimpleDialogV4) {
             buttonA.SetActive(false);
             buttonB.SetActive(false);
+            buttonC.SetActive(false);
+            buttonD.SetActive(false);
+            nextButtonGO.SetActive(true);
+        }
+        else {
+            buttonA.SetActive(false);
+            buttonB.SetActive(false);
+            buttonC.SetActive(false);
+            buttonD.SetActive(false);
             nextButtonGO.SetActive(true);
         }
 
-    // 🎵 Background Music
-        if (node is SimpleDialogV4 SimpleDialogV)
-        {
-            switch (SimpleDialogV.backgroundMusic)
-            {
+        if (node is SimpleDialogV4 SimpleDialogV) {
+            switch (SimpleDialogV.backgroundMusic) {
                 case SimpleDialogV4.BackgroundMusicType.SUSPENSE:
                     audioSource.clip = suspenseClip;
                     break;
@@ -196,6 +216,4 @@ public class NodeReader : MonoBehaviour
 
         actorImageTransform.anchoredPosition = targetPos; 
     }
-   
 }
-
