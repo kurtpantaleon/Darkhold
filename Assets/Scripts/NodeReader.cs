@@ -127,25 +127,49 @@ public class NodeReader : MonoBehaviour
             actorImageTransform.anchoredPosition = onScreenPosition;
         }
     }
+    
+
+    if (node is MultipleChoiceDialog multipleChoiceNode)
+    {
+        buttonA.SetActive(true);
+        buttonB.SetActive(true);
+        buttonAText.text = multipleChoiceNode.a;
+        buttonBText.text = multipleChoiceNode.b;
+        nextButtonGO.SetActive(false);
+    }
+    else if (node is SimpleDialogV4)
+    {
+        buttonA.SetActive(false);
+        buttonB.SetActive(false);
+        nextButtonGO.SetActive(true);
+    }
+    else
+    {
+        buttonA.SetActive(false);
+        buttonB.SetActive(false);
+        nextButtonGO.SetActive(true);
+    }
 
     // 🎵 Background Music
-    if (node is SimpleDialogV2 SimpleDialogV) {
-        switch (SimpleDialogV.backgroundMusic) {
-            case SimpleDialogV2.BackgroundMusicType.SUSPENSE:
-                audioSource.clip = suspenseClip;
-                break;
-            case SimpleDialogV2.BackgroundMusicType.ADVENTURE:
-                audioSource.clip = adventureClip;
-                break;
-            case SimpleDialogV2.BackgroundMusicType.DRAMA:
-                audioSource.clip = dramaClip;
-                break;
-            case SimpleDialogV2.BackgroundMusicType.HAPPY:
-                audioSource.clip = happyClip;
-                break;
+        if (node is SimpleDialogV2 SimpleDialogV)
+        {
+            switch (SimpleDialogV.backgroundMusic)
+            {
+                case SimpleDialogV2.BackgroundMusicType.SUSPENSE:
+                    audioSource.clip = suspenseClip;
+                    break;
+                case SimpleDialogV2.BackgroundMusicType.ADVENTURE:
+                    audioSource.clip = adventureClip;
+                    break;
+                case SimpleDialogV2.BackgroundMusicType.DRAMA:
+                    audioSource.clip = dramaClip;
+                    break;
+                case SimpleDialogV2.BackgroundMusicType.HAPPY:
+                    audioSource.clip = happyClip;
+                    break;
+            }
+            audioSource.Play();
         }
-        audioSource.Play();
-    }
     }
 
     IEnumerator SlideActorIn() {

@@ -13,13 +13,99 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1506.4404, y: -1137.1229}
+  position: {x: 1512, y: -1144}
   ports:
     keys:
     - entry
     values:
     - _fieldName: entry
       _node: {fileID: -5481349789670664968}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+--- !u!114 &-5279316983225639390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -344, y: -312}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: -5279316983225639390}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: -4972477127492706540}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -5279316983225639390}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -5279316983225639390}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: 
+  b: 
+  dialogText: Right
+  dialogImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &-4972477127492706540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -680, y: -712}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: -4972477127492706540}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
@@ -30,7 +116,37 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -4972477127492706540}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 636952148582669805}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -4972477127492706540}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -5279316983225639390}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   entry: 
+  a: 'Left Path: Arcane Corridor '
+  b: 'Right Path: Whispering Abyss '
+  dialogText: '"Nyxholm was the last frontier of our knowledge. Some doors were never
+    meant to be opened."'
+  dialogImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
+  backgroundMusic: 0
 --- !u!114 &-4508034588086915573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +287,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -5481349789670664968}
+        node: {fileID: -4972477127492706540}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -312,6 +428,65 @@ MonoBehaviour:
   - {fileID: 900125685826078127}
   - {fileID: -2694574767792645116}
   - {fileID: -5481349789670664968}
+  - {fileID: -4972477127492706540}
+  - {fileID: 636952148582669805}
+  - {fileID: -5279316983225639390}
+--- !u!114 &636952148582669805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -360, y: -664}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: 636952148582669805}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -4972477127492706540}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: 636952148582669805}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: 636952148582669805}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: 
+  b: 
+  dialogText: Left
+  dialogImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &900125685826078127
 MonoBehaviour:
   m_ObjectHideFlags: 0

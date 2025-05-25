@@ -13,12 +13,27 @@ public class MultipleChoiceDialog : BaseNode {
 	public string dialogText;
 	public Sprite dialogImage;
 
-		public override string getDialogText()
+	[Header("Audio")]
+	public BackgroundMusicType backgroundMusic;
+
+	public enum BackgroundMusicType {
+		SUSPENSE,
+		ADVENTURE,
+		DRAMA,
+		HAPPY
+	}
+
+	public override string getDialogText()
 	{
 		return dialogText;
 	}
-		public override Sprite GetSprite()
+	public override Sprite GetSprite()
 	{
 		return dialogImage;
+	}
+
+	public BackgroundMusicType GetBackgroundMusic()
+	{
+		return backgroundMusic;
 	}
 }
