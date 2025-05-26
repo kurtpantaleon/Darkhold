@@ -1,10 +1,11 @@
 using UnityEngine;
-using System.Collections.Generic;
-using System.Collections;
 
-public class CharacterStats : MonoBehaviour
+[CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/Character Data")]
+public class CharacterData : ScriptableObject
 {
-    // Character Saving Throws
+    public Sprite characterSprite;
+
+    // Saving Throws
     public float strength;
     public float dexterity;
     public float constitution;
@@ -12,7 +13,7 @@ public class CharacterStats : MonoBehaviour
     public float intelligence;
     public float charisma;
 
-    // DC
+    // DC Stats
     public float Aetherics;
     public float BeastEmpathy;
     public float Arcana;
@@ -28,9 +29,8 @@ public class CharacterStats : MonoBehaviour
     public float ArcanePersuasion;
 
     // Character Attributes
-    public float hitpoints;
-    public float barrier;
+    public float hitpoints = 10f;
+    public float barrier = 10f;
     public float exp;
-    public float level;
-
+    public float level = 1f;
 }

@@ -493,14 +493,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterDisplay: {fileID: 1432133080}
-  characterSprites:
-  - {fileID: -2890073026582657527, guid: eb847c1ee7d01134b855e6fee606e6e5, type: 3}
-  - {fileID: 5402251393668616626, guid: f0b1b95d4fef9934eb0e936452071e65, type: 3}
-  - {fileID: -1367291550803677559, guid: 6f66764fa9ef2d54e91e3a2672419039, type: 3}
-  - {fileID: -1512658751467261533, guid: be5b54fdf0d4c314aba4908632e5972b, type: 3}
-  - {fileID: -803138403708184043, guid: fd96c2d592687b541a4c6120d90e3af1, type: 3}
-  - {fileID: 6362832775884612094, guid: 536728c343645254db0427162f6e8917, type: 3}
-  - {fileID: -8730811532367957942, guid: 41505ee50a312b6479209439623cbdd8, type: 3}
+  characterStats: {fileID: 1414385658}
+  characters:
+  - {fileID: 11400000, guid: 048b27854f3f1a945833192832333759, type: 2}
+  - {fileID: 11400000, guid: ca3cf8b545a92fa4785d30621ba6fdd7, type: 2}
+  - {fileID: 11400000, guid: 964edcb9d05f1ca478a3ec0d90ff9106, type: 2}
+  - {fileID: 11400000, guid: 048e21f3cc8ad794c886083a88f18c52, type: 2}
+  - {fileID: 11400000, guid: 7a377670fb1cbef49a6c9f4c2d490b9b, type: 2}
+  - {fileID: 11400000, guid: b339d89d65f5b7642a2d071eebb937f6, type: 2}
+  - {fileID: 11400000, guid: 1f2bcaf0b45916045893cb5885e34136, type: 2}
 --- !u!4 &406142748
 Transform:
   m_ObjectHideFlags: 0
@@ -2193,6 +2194,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407494047}
   m_CullTransparentMesh: 1
+--- !u!1 &1414385657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414385659}
+  - component: {fileID: 1414385658}
+  m_Layer: 0
+  m_Name: CharacterStats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1414385658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414385657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 624546f9210113d40909db5c275c1ca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  Aetherics: 0
+  BeastEmpathy: 0
+  Arcana: 0
+  MysticEndurance: 0
+  MysticArchives: 0
+  Empathy: 0
+  OccultInvestigation: 0
+  ElementalLore: 0
+  SixthSense: 0
+  DivineKnowledge: 0
+  ShadowWeaving: 0
+  WildernessAttunement: 0
+  ArcanePersuasion: 0
+  hitpoints: 0
+  barrier: 0
+  exp: 0
+  level: 0
+--- !u!4 &1414385659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414385657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1013.2887, y: 472.72046, z: -5.748977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430182729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,3 +2857,4 @@ SceneRoots:
   - {fileID: 1119229911}
   - {fileID: 406142748}
   - {fileID: 1798440151}
+  - {fileID: 1414385659}

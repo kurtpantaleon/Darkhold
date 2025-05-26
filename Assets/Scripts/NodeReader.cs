@@ -101,7 +101,7 @@ public class NodeReader : MonoBehaviour
         else if (node is AbilityCheckNode)
         {
             int d20 = Random.Range(0, 21);
-            if ((d20 + characterSheet.gameObject.GetComponent<CharacterStats>().survival) >= ((AbilityCheckNode)node).getDC())
+            if ((d20 + characterSheet.gameObject.GetComponent<CharacterStats>().hitpoints) >= ((AbilityCheckNode)node).getDC())
             {
                 return currentNode.GetOutputPort("success")?.Connection.node as BaseNode;
             }

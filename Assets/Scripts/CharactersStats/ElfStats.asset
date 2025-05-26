@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593b6e50cfd39f342aee1d1863277b0c, type: 3}
+  m_Name: ElfStats
+  m_EditorClassIdentifier: 
+  characterSprite: {fileID: -1367291550803677559, guid: 6f66764fa9ef2d54e91e3a2672419039, type: 3}
+  strength: 534
+  dexterity: 325
+  constitution: 3254
+  wisdom: 5234
+  intelligence: 3254
+  charisma: 1231
+  Aetherics: 123
+  BeastEmpathy: 3123
+  Arcana: 12321
+  MysticEndurance: 0
+  MysticArchives: 0
+  Empathy: 0
+  OccultInvestigation: 0
+  ElementalLore: 0
+  SixthSense: 0
+  DivineKnowledge: 0
+  ShadowWeaving: 0
+  WildernessAttunement: 0
+  ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
