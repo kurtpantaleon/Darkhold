@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharacterSelector : MonoBehaviour
 {
@@ -41,6 +42,11 @@ public class CharacterSelector : MonoBehaviour
             characterStats.ShadowWeaving = data.ShadowWeaving;
             characterStats.WildernessAttunement = data.WildernessAttunement;
             characterStats.ArcanePersuasion = data.ArcanePersuasion;
+
+            CharacterStatsHolder.Instance.stats = characterStats; // Save the selected stats
+
+            // Load the next scene
+            SceneManager.LoadScene("ViewCharacterStats");
         }
     }
 }
