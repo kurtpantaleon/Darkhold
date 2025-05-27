@@ -21,19 +21,19 @@ MonoBehaviour:
   race: Human
   expertise: 
   characterSprite: {fileID: -803138403708184043, guid: fd96c2d592687b541a4c6120d90e3af1, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
+  strength: 10
+  dexterity: 8
+  constitution: 6
+  wisdom: 12
+  intelligence: 12
+  charisma: 8
   _Aetherics: 0
   _BeastEmpathy: 0
-  _Arcana: 0
+  _Arcana: 2
   _MysticEndurance: 0
   _MysticArchives: 0
   _Empathy: 0
-  _OccultInvestigation: 0
+  _OccultInvestigation: 1
   _ElementalLore: 0
   _SixthSense: 0
   _DivineKnowledge: 0

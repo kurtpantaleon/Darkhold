@@ -21,16 +21,16 @@ MonoBehaviour:
   race: Dwarf
   expertise: 
   characterSprite: {fileID: 5402251393668616626, guid: f0b1b95d4fef9934eb0e936452071e65, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
+  strength: 10
+  dexterity: 6
+  constitution: 16
+  wisdom: 9
+  intelligence: 11
+  charisma: 4
   _Aetherics: 0
   _BeastEmpathy: 0
-  _Arcana: 0
-  _MysticEndurance: 0
+  _Arcana: 1
+  _MysticEndurance: 2
   _MysticArchives: 0
   _Empathy: 0
   _OccultInvestigation: 0

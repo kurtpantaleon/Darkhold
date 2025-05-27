@@ -21,18 +21,18 @@ MonoBehaviour:
   race: Undead
   expertise: 
   characterSprite: {fileID: -8730811532367957942, guid: 41505ee50a312b6479209439623cbdd8, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
+  strength: 8
+  dexterity: 7
+  constitution: 14
+  wisdom: 12
+  intelligence: 8
+  charisma: 4
   _Aetherics: 0
   _BeastEmpathy: 0
   _Arcana: 0
   _MysticEndurance: 0
-  _MysticArchives: 0
-  _Empathy: 0
+  _MysticArchives: 2
+  _Empathy: -1
   _OccultInvestigation: 0
   _ElementalLore: 0
   _SixthSense: 0

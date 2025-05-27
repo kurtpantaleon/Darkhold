@@ -21,13 +21,13 @@ MonoBehaviour:
   race: Elf
   expertise: 
   characterSprite: {fileID: -1367291550803677559, guid: 6f66764fa9ef2d54e91e3a2672419039, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
-  _Aetherics: 0
+  strength: 6
+  dexterity: 8
+  constitution: 5
+  wisdom: 7
+  intelligence: 13
+  charisma: 12
+  _Aetherics: 1
   _BeastEmpathy: 0
   _Arcana: 0
   _MysticEndurance: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
   _Empathy: 0
   _OccultInvestigation: 0
   _ElementalLore: 0
-  _SixthSense: 0
+  _SixthSense: 2
   _DivineKnowledge: 0
   _ShadowWeaving: 0
   _WildernessAttunement: 0

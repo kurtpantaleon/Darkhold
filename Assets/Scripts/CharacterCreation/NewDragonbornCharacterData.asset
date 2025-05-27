@@ -21,12 +21,12 @@ MonoBehaviour:
   race: Dragonborn
   expertise: 
   characterSprite: {fileID: -2890073026582657527, guid: eb847c1ee7d01134b855e6fee606e6e5, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
+  strength: 10
+  dexterity: 6
+  constitution: 7
+  wisdom: 9
+  intelligence: 12
+  charisma: 15
   _Aetherics: 0
   _BeastEmpathy: 0
   _Arcana: 0
@@ -34,9 +34,9 @@ MonoBehaviour:
   _MysticArchives: 0
   _Empathy: 0
   _OccultInvestigation: 0
-  _ElementalLore: 0
+  _ElementalLore: 2
   _SixthSense: 0
-  _DivineKnowledge: 0
+  _DivineKnowledge: -1
   _ShadowWeaving: 0
   _WildernessAttunement: 0
   _ArcanePersuasion: 0

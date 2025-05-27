@@ -21,23 +21,23 @@ MonoBehaviour:
   race: Fae
   expertise: 
   characterSprite: {fileID: -1512658751467261533, guid: be5b54fdf0d4c314aba4908632e5972b, type: 3}
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  wisdom: 0
-  intelligence: 0
-  charisma: 0
+  strength: 5
+  dexterity: 14
+  constitution: 4
+  wisdom: 9
+  intelligence: 10
+  charisma: 8
   _Aetherics: 0
   _BeastEmpathy: 0
   _Arcana: 0
   _MysticEndurance: 0
   _MysticArchives: 0
-  _Empathy: 0
+  _Empathy: 1
   _OccultInvestigation: 0
   _ElementalLore: 0
   _SixthSense: 0
   _DivineKnowledge: 0
-  _ShadowWeaving: 0
+  _ShadowWeaving: 2
   _WildernessAttunement: 0
   _ArcanePersuasion: 0
   hitpoints: 10

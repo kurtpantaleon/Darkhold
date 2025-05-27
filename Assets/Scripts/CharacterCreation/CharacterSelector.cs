@@ -8,21 +8,56 @@ public class CharacterSelector : MonoBehaviour
     public CharacterData[] characters; // Assign in Inspector
     public Button viewStatsButton;
 
+    private void Awake()
+    {
+        // Validate required components
+        if (characterDisplay == null)
+        {
+            Debug.LogError("Character Display Image is not assigned in the Inspector!");
+        }
+        if (viewStatsButton == null)
+        {
+            Debug.LogError("View Stats Button is not assigned in the Inspector!");
+        }
+        if (characters == null || characters.Length == 0)
+        {
+            Debug.LogError("No characters assigned in the Inspector!");
+        }
+    }
+
     public void ShowCharacter(int index)
     {
         Debug.Log("Button clicked! Index: " + index);
 
+        if (characters == null || characters.Length == 0)
+        {
+            Debug.LogError("No characters available!");
+            return;
+        }
+
         if (index >= 0 && index < characters.Length)
         {
             CharacterData data = characters[index];
-            SelectedCharacter.currentCharacter = data; // Store the selected character
+            if (data != null)
+            {
+                SelectedCharacter.currentCharacter = data; // Store the selected character
 
-            // Show sprite
-            characterDisplay.gameObject.SetActive(true);
-            characterDisplay.sprite = data.CharacterSprite;
-            characterDisplay.color = Color.white;
-
-            // DO NOT load the scene here!
+                // Show sprite if characterDisplay is assigned
+                if (characterDisplay != null)
+                {
+                    characterDisplay.gameObject.SetActive(true);
+                    characterDisplay.sprite = data.CharacterSprite;
+                    characterDisplay.color = Color.white;
+                }
+            }
+            else
+            {
+                Debug.LogError($"Character data at index {index} is null!");
+            }
+        }
+        else
+        {
+            Debug.LogError($"Invalid character index: {index}. Valid range is 0 to {characters.Length - 1}");
         }
     }
 
@@ -41,6 +76,9 @@ public class CharacterSelector : MonoBehaviour
 
     void Update()
     {
-        viewStatsButton.interactable = (SelectedCharacter.currentCharacter != null);
+        if (viewStatsButton != null)
+        {
+            viewStatsButton.interactable = (SelectedCharacter.currentCharacter != null);
+        }
     }
 }
