@@ -22,20 +22,20 @@ public class CharacterStats : MonoBehaviour
     public float intelligence;
     public float charisma;
 
-    // DC (commented out, not used for these characters)
-    // public float Aetherics;
-    // public float BeastEmpathy;
-    // public float Arcana;
-    // public float MysticEndurance;
-    // public float MysticArchives;
-    // public float Empathy;
-    // public float OccultInvestigation;
-    // public float ElementalLore;
-    // public float SixthSense;
-    // public float DivineKnowledge;
-    // public float ShadowWeaving;
-    // public float WildernessAttunement;
-    // public float ArcanePersuasion;
+    // DC Stats
+    public float Aetherics;
+    public float BeastEmpathy;
+    public float Arcana;
+    public float MysticEndurance;
+    public float MysticArchives;
+    public float Empathy;
+    public float OccultInvestigation;
+    public float ElementalLore;
+    public float SixthSense;
+    public float DivineKnowledge;
+    public float ShadowWeaving;
+    public float WildernessAttunement;
+    public float ArcanePersuasion;
 
     // Character Attributes
     public float hitpoints;

@@ -1,27 +1,27 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewFaeCharacterData", menuName = "Character/Fae Character Data")]
-public class CharacterData : ScriptableObject
+public class FaeCharacterData : CharacterData
 {
     // Character Identity
-    public string characterName = "Sylphia Starpetal";
-    public string awaken = ""; // Empty
-    public string characterClass = "Clerics";
-    public string body = "Slender";
-    public string eyes = "Blue";
-    public string hair = "Long";
-    public string race = "Fae";
-    public string expertise = ""; // Empty
+    public override string characterName { get; set; } = "Sylphia Starpetal";
+    public override string awaken { get; set; } = ""; // Empty
+    public override string characterClass { get; set; } = "Clerics";
+    public override string body { get; set; } = "Slender";
+    public override string eyes { get; set; } = "Blue";
+    public override string hair { get; set; } = "Long";
+    public override string race { get; set; } = "Fae";
+    public override string expertise { get; set; } = ""; // Empty
 
-    public Sprite characterSprite;
+    public override Sprite characterSprite { get; set; }
 
     // Saving Throws
-    public float strength; // Not specified, leave default or set as needed
-    public float dexterity; // Not specified, leave default or set as needed
-    public float constitution; // Not specified, leave default or set as needed
-    public float wisdom; // Not specified, leave default or set as needed
-    public float intelligence; // Not specified, leave default or set as needed
-    public float charisma; // Not specified, leave default or set as needed
+    public override float strength { get; set; }
+    public override float dexterity { get; set; }
+    public override float constitution { get; set; }
+    public override float wisdom { get; set; }
+    public override float intelligence { get; set; }
+    public override float charisma { get; set; }
 
     // DC Stats (Commented out, not used for this character)
     // public float Aetherics;
@@ -39,16 +39,16 @@ public class CharacterData : ScriptableObject
     // public float ArcanePersuasion;
 
     // Character Attributes
-    public float hitpoints = 10f; // 10 + cons (add logic if needed)
-    public float barrier = 10f; // 10 + wardrobe (add logic if needed)
-    public float exp = 0f;
-    public float level = 1f;
+    public override float hitpoints { get; set; } = 10f; // 10 + cons (add logic if needed)
+    public override float barrier { get; set; } = 10f; // 10 + wardrobe (add logic if needed)
+    public override float exp { get; set; } = 0f;
+    public override float level { get; set; } = 1f;
 
     // Skills and Equipment
-    public string lifeSkills = "Mystic Sight";
-    public string basicSkills = "Divine Shield, Healing Light";
-    public string specialSpells = "Sacred Sense";
-    public string weapon = "Radiant Mace";
-    public string wardrobe = "Celestial Aegis";
-    public string items = ""; // Empty
+    public override string lifeSkills { get; set; } = "Mystic Sight";
+    public override string basicSkills { get; set; } = "Divine Shield, Healing Light";
+    public override string specialSpells { get; set; } = "Sacred Sense";
+    public override string weapon { get; set; } = "Radiant Mace";
+    public override string wardrobe { get; set; } = "Celestial Aegis";
+    public override string items { get; set; } = ""; // Empty
 }

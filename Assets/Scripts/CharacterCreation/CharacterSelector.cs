@@ -15,6 +15,7 @@ public class CharacterSelector : MonoBehaviour
         if (index >= 0 && index < characters.Length)
         {
             CharacterData data = characters[index];
+            SelectedCharacter.currentCharacter = data; // Store the selected character
 
             // Show sprite
             characterDisplay.gameObject.SetActive(true);

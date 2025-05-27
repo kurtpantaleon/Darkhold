@@ -1,27 +1,27 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewOrcCharacterData", menuName = "Character/Orc Character Data")]
-public class CharacterData : ScriptableObject
+public class OrcCharacterData : CharacterData
 {
     // Character Identity
-    public string characterName = "Gorrak Bloodfist";
-    public string awaken = ""; // Empty
-    public string characterClass = "Geomancer";
-    public string body = "Mascular";
-    public string eyes = "Black";
-    public string hair = "Bald";
-    public string race = "Orc";
-    public string expertise = ""; // Empty
+    public override string characterName { get; set; } = "Grommash Bloodaxe";
+    public override string awaken { get; set; } = ""; // Empty
+    public override string characterClass { get; set; } = "Berserker";
+    public override string body { get; set; } = "Mascular";
+    public override string eyes { get; set; } = "Red";
+    public override string hair { get; set; } = "Bald";
+    public override string race { get; set; } = "Orc";
+    public override string expertise { get; set; } = ""; // Empty
 
-    public Sprite characterSprite;
+    public override Sprite characterSprite { get; set; }
 
     // Saving Throws
-    public float strength; // Not specified, leave default or set as needed
-    public float dexterity; // Not specified, leave default or set as needed
-    public float constitution; // Not specified, leave default or set as needed
-    public float wisdom; // Not specified, leave default or set as needed
-    public float intelligence; // Not specified, leave default or set as needed
-    public float charisma; // Not specified, leave default or set as needed
+    public override float strength { get; set; }
+    public override float dexterity { get; set; }
+    public override float constitution { get; set; }
+    public override float wisdom { get; set; }
+    public override float intelligence { get; set; }
+    public override float charisma { get; set; }
 
     // DC Stats (Commented out, not used for this character)
     // public float Aetherics;
@@ -39,16 +39,43 @@ public class CharacterData : ScriptableObject
     // public float ArcanePersuasion;
 
     // Character Attributes
-    public float hitpoints = 10f; // 10 + cons (add logic if needed)
-    public float barrier = 10f; // 10 + wardrobe (add logic if needed)
-    public float exp = 0f;
-    public float level = 1f;
+    public override float hitpoints { get; set; } = 10f; // 10 + cons (add logic if needed)
+    public override float barrier { get; set; } = 10f; // 10 + wardrobe (add logic if needed)
+    public override float exp { get; set; } = 0f;
+    public override float level { get; set; } = 1f;
 
     // Skills and Equipment
-    public string lifeSkills = "Overchannel";
-    public string basicSkills = "Bolder Toss, Seismic Sense";
-    public string specialSpells = "Iron Grip";
-    public string weapon = "Earthen Hammer";
-    public string wardrobe = "Golemhide Armor";
-    public string items = ""; // Empty
+    public override string lifeSkills { get; set; } = "Battle Mage";
+    public override string basicSkills { get; set; } = "Rage Strike, Battle Cry";
+    public override string specialSpells { get; set; } = "Blood Frenzy";
+    public override string weapon { get; set; } = "War Axe";
+    public override string wardrobe { get; set; } = "Battle Armor";
+    public override string items { get; set; } = ""; // Empty
+
+    private void OnEnable()
+    {
+        // Character Identity
+        characterName = "Grommash Bloodaxe";
+        awaken = ""; // Empty
+        characterClass = "Berserker";
+        body = "Mascular";
+        eyes = "Red";
+        hair = "Bald";
+        race = "Orc";
+        expertise = ""; // Empty
+
+        // Character Attributes
+        hitpoints = 10f; // 10 + cons (add logic if needed)
+        barrier = 10f; // 10 + wardrobe (add logic if needed)
+        exp = 0f;
+        level = 1f;
+
+        // Skills and Equipment
+        lifeSkills = "Battle Mage";
+        basicSkills = "Rage Strike, Battle Cry";
+        specialSpells = "Blood Frenzy";
+        weapon = "War Axe";
+        wardrobe = "Battle Armor";
+        items = ""; // Empty
+    }
 }
