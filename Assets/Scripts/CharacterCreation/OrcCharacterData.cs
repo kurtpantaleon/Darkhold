@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/Character Data")]
+[CreateAssetMenu(fileName = "NewOrcCharacterData", menuName = "Character/Orc Character Data")]
 public class CharacterData : ScriptableObject
 {
     // Character Identity
