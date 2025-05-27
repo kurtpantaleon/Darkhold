@@ -3,51 +3,95 @@ using UnityEngine;
 public abstract class CharacterData : ScriptableObject
 {
     // Character Identity
-    public virtual string characterName { get; set; }
-    public virtual string awaken { get; set; }
-    public virtual string characterClass { get; set; }
-    public virtual string body { get; set; }
-    public virtual string eyes { get; set; }
-    public virtual string hair { get; set; }
-    public virtual string race { get; set; }
-    public virtual string expertise { get; set; }
+    [SerializeField] private string characterName;
+    [SerializeField] private string awaken;
+    [SerializeField] private string characterClass;
+    [SerializeField] private string body;
+    [SerializeField] private string eyes;
+    [SerializeField] private string hair;
+    [SerializeField] private string race;
+    [SerializeField] private string expertise;
 
-    public virtual Sprite characterSprite { get; set; }
+    [SerializeField] private Sprite characterSprite;
 
     // Saving Throws
-    public virtual float strength { get; set; }
-    public virtual float dexterity { get; set; }
-    public virtual float constitution { get; set; }
-    public virtual float wisdom { get; set; }
-    public virtual float intelligence { get; set; }
-    public virtual float charisma { get; set; }
+    [SerializeField] private float strength;
+    [SerializeField] private float dexterity;
+    [SerializeField] private float constitution;
+    [SerializeField] private float wisdom;
+    [SerializeField] private float intelligence;
+    [SerializeField] private float charisma;
 
     // DC Stats
-    public virtual float Aetherics { get; set; }
-    public virtual float BeastEmpathy { get; set; }
-    public virtual float Arcana { get; set; }
-    public virtual float MysticEndurance { get; set; }
-    public virtual float MysticArchives { get; set; }
-    public virtual float Empathy { get; set; }
-    public virtual float OccultInvestigation { get; set; }
-    public virtual float ElementalLore { get; set; }
-    public virtual float SixthSense { get; set; }
-    public virtual float DivineKnowledge { get; set; }
-    public virtual float ShadowWeaving { get; set; }
-    public virtual float WildernessAttunement { get; set; }
-    public virtual float ArcanePersuasion { get; set; }
+    [SerializeField] private float _Aetherics;
+    [SerializeField] private float _BeastEmpathy;
+    [SerializeField] private float _Arcana;
+    [SerializeField] private float _MysticEndurance;
+    [SerializeField] private float _MysticArchives;
+    [SerializeField] private float _Empathy;
+    [SerializeField] private float _OccultInvestigation;
+    [SerializeField] private float _ElementalLore;
+    [SerializeField] private float _SixthSense;
+    [SerializeField] private float _DivineKnowledge;
+    [SerializeField] private float _ShadowWeaving;
+    [SerializeField] private float _WildernessAttunement;
+    [SerializeField] private float _ArcanePersuasion;
 
     // Character Attributes
-    public virtual float hitpoints { get; set; } = 10f;
-    public virtual float barrier { get; set; } = 10f;
-    public virtual float exp { get; set; } = 0f;
-    public virtual float level { get; set; } = 1f;
+    [SerializeField] private float hitpoints = 10f;
+    [SerializeField] private float barrier = 10f;
+    [SerializeField] private float exp = 0f;
+    [SerializeField] private float level = 1f;
 
     // Skills and Equipment
-    public virtual string lifeSkills { get; set; }
-    public virtual string basicSkills { get; set; }
-    public virtual string specialSpells { get; set; }
-    public virtual string weapon { get; set; }
-    public virtual string wardrobe { get; set; }
-    public virtual string items { get; set; }
+    [SerializeField] private string lifeSkills;
+    [SerializeField] private string basicSkills;
+    [SerializeField] private string specialSpells;
+    [SerializeField] private string weapon;
+    [SerializeField] private string wardrobe;
+    [SerializeField] private string items;
+
+    // Public read-only properties
+    public string CharacterName => characterName;
+    public string Awaken => awaken;
+    public string CharacterClass => characterClass;
+    public string Body => body;
+    public string Eyes => eyes;
+    public string Hair => hair;
+    public string Race => race;
+    public string Expertise => expertise;
+    public Sprite CharacterSprite => characterSprite;
+
+    public float Strength => strength;
+    public float Dexterity => dexterity;
+    public float Constitution => constitution;
+    public float Wisdom => wisdom;
+    public float Intelligence => intelligence;
+    public float Charisma => charisma;
+
+    public float Hitpoints => hitpoints;
+    public float Barrier => barrier;
+    public float Exp => exp;
+    public float Level => level;
+
+    public string LifeSkills => lifeSkills;
+    public string BasicSkills => basicSkills;
+    public string SpecialSpells => specialSpells;
+    public string Weapon => weapon;
+    public string Wardrobe => wardrobe;
+    public string Items => items;
+
+    public float Aetherics => _Aetherics;
+    public float BeastEmpathy => _BeastEmpathy;
+    public float Arcana => _Arcana;
+    public float MysticEndurance => _MysticEndurance;
+    public float MysticArchives => _MysticArchives;
+    public float Empathy => _Empathy;
+    public float OccultInvestigation => _OccultInvestigation;
+    public float ElementalLore => _ElementalLore;
+    public float SixthSense => _SixthSense;
+    public float DivineKnowledge => _DivineKnowledge;
+    public float ShadowWeaving => _ShadowWeaving;
+    public float WildernessAttunement => _WildernessAttunement;
+    public float ArcanePersuasion => _ArcanePersuasion;
 } 

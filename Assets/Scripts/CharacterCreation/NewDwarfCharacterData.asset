@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34808cfb917ba140a985f16be6d1f23, type: 3}
+  m_Name: NewDwarfCharacterData
+  m_EditorClassIdentifier: 
+  characterName: Thrain Ironfist
+  awaken: 
+  characterClass: Illusionist
+  body: Mascular
+  eyes: Brown
+  hair: Long
+  race: Dwarf
+  expertise: 
+  characterSprite: {fileID: 5402251393668616626, guid: f0b1b95d4fef9934eb0e936452071e65, type: 3}
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  _Aetherics: 0
+  _BeastEmpathy: 0
+  _Arcana: 0
+  _MysticEndurance: 0
+  _MysticArchives: 0
+  _Empathy: 0
+  _OccultInvestigation: 0
+  _ElementalLore: 0
+  _SixthSense: 0
+  _DivineKnowledge: 0
+  _ShadowWeaving: 0
+  _WildernessAttunement: 0
+  _ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
+  lifeSkills: Battle Mage
+  basicSkills: Mirror Image
+  specialSpells: Phantom Strike
+  weapon: Whisperclock
+  wardrobe: Nightmare Orb
+  items: 

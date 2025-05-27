@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 public class CharacterSelector : MonoBehaviour
 {
     public Image characterDisplay;
-    public CharacterStats characterStats; // Reference to a script attached to a display object
     public CharacterData[] characters; // Assign in Inspector
+    public Button viewStatsButton;
 
     public void ShowCharacter(int index)
     {
@@ -19,35 +19,31 @@ public class CharacterSelector : MonoBehaviour
 
             // Show sprite
             characterDisplay.gameObject.SetActive(true);
-            characterDisplay.sprite = data.characterSprite;
+            characterDisplay.sprite = data.CharacterSprite;
             characterDisplay.color = Color.white;
 
-            // Apply stats to the CharacterStats component
-            characterStats.strength = data.strength;
-            characterStats.dexterity = data.dexterity;
-            characterStats.constitution = data.constitution;
-            characterStats.wisdom = data.wisdom;
-            characterStats.intelligence = data.intelligence;
-            characterStats.charisma = data.charisma;
-
-            characterStats.Aetherics = data.Aetherics;
-            characterStats.BeastEmpathy = data.BeastEmpathy;
-            characterStats.Arcana = data.Arcana;
-            characterStats.MysticEndurance = data.MysticEndurance;
-            characterStats.MysticArchives = data.MysticArchives;
-            characterStats.Empathy = data.Empathy;
-            characterStats.OccultInvestigation = data.OccultInvestigation;
-            characterStats.ElementalLore = data.ElementalLore;
-            characterStats.SixthSense = data.SixthSense;
-            characterStats.DivineKnowledge = data.DivineKnowledge;
-            characterStats.ShadowWeaving = data.ShadowWeaving;
-            characterStats.WildernessAttunement = data.WildernessAttunement;
-            characterStats.ArcanePersuasion = data.ArcanePersuasion;
-
-            CharacterStatsHolder.Instance.stats = characterStats; // Save the selected stats
+            // No more CharacterStats logic here
 
             // Load the next scene
             SceneManager.LoadScene("ViewCharacterStats");
         }
+    }
+
+    // This method will be called by the View Stats button
+    public void GoToViewStats()
+    {
+        if (SelectedCharacter.currentCharacter != null)
+        {
+            SceneManager.LoadScene("ViewCharacterStats");
+        }
+        else
+        {
+            Debug.LogWarning("No character selected! Please select a character first.");
+        }
+    }
+
+    void Update()
+    {
+        viewStatsButton.interactable = (SelectedCharacter.currentCharacter != null);
     }
 }

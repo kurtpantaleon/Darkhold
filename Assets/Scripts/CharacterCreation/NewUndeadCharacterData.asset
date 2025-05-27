@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecde7ca4b44c77b48832290658f3355c, type: 3}
+  m_Name: NewUndeadCharacterData
+  m_EditorClassIdentifier: 
+  characterName: Nyx Hollowborn
+  awaken: 
+  characterClass: Necromancer
+  body: Slender
+  eyes: Hollow
+  hair: Skull
+  race: Undead
+  expertise: 
+  characterSprite: {fileID: -8730811532367957942, guid: 41505ee50a312b6479209439623cbdd8, type: 3}
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  _Aetherics: 0
+  _BeastEmpathy: 0
+  _Arcana: 0
+  _MysticEndurance: 0
+  _MysticArchives: 0
+  _Empathy: 0
+  _OccultInvestigation: 0
+  _ElementalLore: 0
+  _SixthSense: 0
+  _DivineKnowledge: 0
+  _ShadowWeaving: 0
+  _WildernessAttunement: 0
+  _ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
+  lifeSkills: Spellweaver
+  basicSkills: Death Whisper
+  specialSpells: Grave Knowledge
+  weapon: Bone Scythe
+  wardrobe: Shadow Veil
+  items: 

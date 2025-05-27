@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a96c2c6a088614d90e6870ac720538, type: 3}
+  m_Name: NewElfCharacterData
+  m_EditorClassIdentifier: 
+  characterName: Thalorin Starbloom
+  awaken: 
+  characterClass: Hydromancer
+  body: Agile
+  eyes: Green
+  hair: Long
+  race: Elf
+  expertise: 
+  characterSprite: {fileID: -1367291550803677559, guid: 6f66764fa9ef2d54e91e3a2672419039, type: 3}
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  _Aetherics: 0
+  _BeastEmpathy: 0
+  _Arcana: 0
+  _MysticEndurance: 0
+  _MysticArchives: 0
+  _Empathy: 0
+  _OccultInvestigation: 0
+  _ElementalLore: 0
+  _SixthSense: 0
+  _DivineKnowledge: 0
+  _ShadowWeaving: 0
+  _WildernessAttunement: 0
+  _ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
+  lifeSkills: Spellweaver
+  basicSkills: Tidal Wave
+  specialSpells: Aqua Veil
+  weapon: Glacier Chakrams
+  wardrobe: Frostshroud Coat
+  items: 

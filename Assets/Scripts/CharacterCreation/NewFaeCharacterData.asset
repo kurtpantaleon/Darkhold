@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65be0c97ab2ebd4ab711ccbbe338378, type: 3}
+  m_Name: NewFaeCharacterData
+  m_EditorClassIdentifier: 
+  characterName: Sylphia Starpetal
+  awaken: 
+  characterClass: Clerics
+  body: Slender
+  eyes: Blue
+  hair: Long
+  race: Fae
+  expertise: 
+  characterSprite: {fileID: -1512658751467261533, guid: be5b54fdf0d4c314aba4908632e5972b, type: 3}
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  _Aetherics: 0
+  _BeastEmpathy: 0
+  _Arcana: 0
+  _MysticEndurance: 0
+  _MysticArchives: 0
+  _Empathy: 0
+  _OccultInvestigation: 0
+  _ElementalLore: 0
+  _SixthSense: 0
+  _DivineKnowledge: 0
+  _ShadowWeaving: 0
+  _WildernessAttunement: 0
+  _ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
+  lifeSkills: Mystic Sight
+  basicSkills: Healing Light
+  specialSpells: Sacred Sense
+  weapon: Radiant Mace
+  wardrobe: Celestial Aegis
+  items: 

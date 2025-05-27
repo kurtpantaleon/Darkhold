@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feaee570b36d4c44fa408f1d18750c51, type: 3}
+  m_Name: NewHumanCharacterData
+  m_EditorClassIdentifier: 
+  characterName: Adrian Voss
+  awaken: 
+  characterClass: Pyromancer
+  body: Mascular
+  eyes: Brown
+  hair: Short
+  race: Human
+  expertise: 
+  characterSprite: {fileID: -803138403708184043, guid: fd96c2d592687b541a4c6120d90e3af1, type: 3}
+  strength: 0
+  dexterity: 0
+  constitution: 0
+  wisdom: 0
+  intelligence: 0
+  charisma: 0
+  _Aetherics: 0
+  _BeastEmpathy: 0
+  _Arcana: 0
+  _MysticEndurance: 0
+  _MysticArchives: 0
+  _Empathy: 0
+  _OccultInvestigation: 0
+  _ElementalLore: 0
+  _SixthSense: 0
+  _DivineKnowledge: 0
+  _ShadowWeaving: 0
+  _WildernessAttunement: 0
+  _ArcanePersuasion: 0
+  hitpoints: 10
+  barrier: 10
+  exp: 0
+  level: 1
+  lifeSkills: Scholar
+  basicSkills: Blazing Ward
+  specialSpells: Inferno Surge
+  weapon: Fire Gauntlet
+  wardrobe: Embercloak
+  items: 
