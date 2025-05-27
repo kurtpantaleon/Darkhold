@@ -144,6 +144,12 @@ public class NodeReader : MonoBehaviour
                 return currentNode.GetOutputPort("failed")?.Connection.node as BaseNode;
             }
         }
+        else if (node is DamageNode damageNode)
+{
+    CharacterStats stats = characterSheet.GetComponent<CharacterStats>();
+    stats.hitpoints -= damageNode.damageAmount;
+    return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+}
         else
         {
             return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;

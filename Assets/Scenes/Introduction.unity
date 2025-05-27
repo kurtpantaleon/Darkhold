@@ -1692,7 +1692,7 @@ MonoBehaviour:
   hair: 
   race: 
   expertise: 
-  strength: 0
+  strength: 10
   dexterity: 0
   constitution: 0
   wisdom: 0

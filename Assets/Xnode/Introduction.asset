@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 584, y: -744}
+  position: {x: 888, y: -824}
   ports:
     keys:
     - entry
@@ -107,6 +107,90 @@ MonoBehaviour:
     descend into a vault untouched by time.'
   exit: 
   backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &-8227166597735368337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -440, y: -168}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8227166597735368337}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: 6102758729628216067}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -8227166597735368337}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 7553468466988635212}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -8227166597735368337}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: -8227166597735368337}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -8227166597735368337}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: Attempt Puzzle
+  b: 
+  c: 
+  d: 
+  dialogText: "The Chronicles reveals a message might be useful\n\n\u201CThe beginning
+    is marked by the one that faces the dawn.\u201D\n\u201CThe second follows the
+    mark of endings, shadowed by the dusk.\u201D\n\u201CThe last bears the path of
+    balance, standing between extremes.\u201D\n"
+  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-7598961546941476861
 MonoBehaviour:
@@ -441,7 +525,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -40, y: -728}
+  position: {x: 344, y: -824}
   ports:
     keys:
     - entry
@@ -489,7 +573,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3448, y: -744}
+  position: {x: 3704, y: -776}
   ports:
     keys:
     - entry
@@ -722,7 +806,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -328, y: -728}
+  position: {x: 72, y: -808}
   ports:
     keys:
     - entry
@@ -733,8 +817,11 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: a
-        node: {fileID: 6102758729628216067}
+      - fieldName: success
+        node: {fileID: 2544527127434696927}
+        reroutePoints: []
+      - fieldName: success
+        node: {fileID: 7553468466988635212}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -850,7 +937,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -984, y: -712}
+  position: {x: -1000, y: -824}
   ports:
     keys:
     - entry
@@ -1355,7 +1442,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2552, y: -744}
+  position: {x: 2840, y: -680}
   ports:
     keys:
     - entry
@@ -1875,7 +1962,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1432, y: -1288}
+  position: {x: -1656, y: -1368}
   ports:
     keys:
     - entry
@@ -1927,7 +2014,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1992, y: -744}
+  position: {x: 2280, y: -680}
   ports:
     keys:
     - entry
@@ -2073,7 +2160,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2840, y: -744}
+  position: {x: 3128, y: -680}
   ports:
     keys:
     - entry
@@ -2211,7 +2298,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 280, y: -744}
+  position: {x: 600, y: -824}
   ports:
     keys:
     - entry
@@ -2380,6 +2467,10 @@ MonoBehaviour:
   - {fileID: -2064128263157236765}
   - {fileID: 8714072624130116932}
   - {fileID: -351137271248813636}
+  - {fileID: -8227166597735368337}
+  - {fileID: 2544527127434696927}
+  - {fileID: 7707587708021050990}
+  - {fileID: 7553468466988635212}
 --- !u!114 &104915439952916031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2579,7 +2670,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1160, y: -744}
+  position: {x: 1448, y: -680}
   ports:
     keys:
     - entry
@@ -2636,7 +2727,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: -744}
+  position: {x: 1736, y: -680}
   ports:
     keys:
     - entry
@@ -3020,6 +3111,69 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
+--- !u!114 &2544527127434696927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a75ba529dcc5945849b84cc365ff95, type: 3}
+  m_Name: Ability Check
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -520, y: -840}
+  ports:
+    keys:
+    - entry
+    - success
+    - failed
+    values:
+    - _fieldName: entry
+      _node: {fileID: 2544527127434696927}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: 6102758729628216067}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: success
+      _node: {fileID: 2544527127434696927}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -5347526606392380681}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: failed
+      _node: {fileID: 2544527127434696927}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 7707587708021050990}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  success: 
+  failed: 
+  dialogText: Attempting to do the puzzle
+  dialogImage: {fileID: 0}
+  difficultyCheckValue: 10
+  abilityCheck: 8
 --- !u!114 &2986843412522654872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3349,7 +3503,7 @@ MonoBehaviour:
   m_Name: Weapon Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2280, y: -760}
+  position: {x: 2568, y: -696}
   ports:
     keys:
     - entry
@@ -3502,7 +3656,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3144, y: -744}
+  position: {x: 3432, y: -1160}
   ports:
     keys:
     - entry
@@ -4101,7 +4255,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -664, y: -712}
+  position: {x: -744, y: -424}
   ports:
     keys:
     - entry
@@ -4118,6 +4272,9 @@ MonoBehaviour:
       - fieldName: exit
         node: {fileID: -5216767645869338894}
         reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 7707587708021050990}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -4128,7 +4285,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -5347526606392380681}
+        node: {fileID: 2544527127434696927}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4138,7 +4295,10 @@ MonoBehaviour:
       _node: {fileID: 6102758729628216067}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -8227166597735368337}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4163,7 +4323,7 @@ MonoBehaviour:
       _dynamic: 0
   entry: 
   a: Attempt the Puzzle
-  b: Use Chronicle to Solve Instantly
+  b: Use Chronicle for clue
   c: 
   d: 
   dialogText: "\n At the corridor\u2019s end is a sealed archway of pulsing runes.
@@ -4259,7 +4419,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1736, y: -744}
+  position: {x: 2024, y: -680}
   ports:
     keys:
     - entry
@@ -4307,7 +4467,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 856, y: -744}
+  position: {x: 1144, y: -680}
   ports:
     keys:
     - entry
@@ -4385,6 +4545,113 @@ MonoBehaviour:
     of the Heart of Nyxholm a massive arcane core.'
   dialogImage: {fileID: 0}
   backgroundMusic: 0
+--- !u!114 &7553468466988635212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a75ba529dcc5945849b84cc365ff95, type: 3}
+  m_Name: Ability Check
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -56, y: -200}
+  ports:
+    keys:
+    - entry
+    - success
+    - failed
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7553468466988635212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -8227166597735368337}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: success
+      _node: {fileID: 7553468466988635212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -5347526606392380681}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: failed
+      _node: {fileID: 7553468466988635212}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  success: 
+  failed: 
+  dialogText: With the help of chronicle you easily reorder the runes
+  dialogImage: {fileID: 0}
+  difficultyCheckValue: 0
+  abilityCheck: 8
+--- !u!114 &7707587708021050990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfec733455c2faf40aff567b6f036dcc, type: 3}
+  m_Name: Damage
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -264, y: -456}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 7707587708021050990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: failed
+        node: {fileID: 2544527127434696927}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 7707587708021050990}
+      _typeQualifiedName: BaseNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: 6102758729628216067}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  exit: {fileID: 0}
+  entry: 
+  damageAmount: 3
+  damageDialog: Failed You took 3 damage
 --- !u!114 &8024521814443869360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4446,7 +4713,7 @@ MonoBehaviour:
   failed: 
   dialogText: 'Condition: Player Arcana >= 14'
   dialogImage: {fileID: 0}
-  difficultyCheckValue: 0
+  difficultyCheckValue: 14
   abilityCheck: 0
 --- !u!114 &8137280085551082746
 MonoBehaviour:
@@ -4552,7 +4819,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1736, y: -1144}
+  position: {x: -1912, y: -1592}
   ports:
     keys:
     - exit

@@ -4,5 +4,25 @@ using UnityEngine;
 using XNode;
     public enum ABILITY
     {
-        PERCEPTION,WISDOM,INTELLIGENCE
+        strength,
+        dexterity,
+        constitution,
+        wisdom,
+        intelligence,
+        charisma,
+
+    // DC Stats
+     Aetherics,
+     BeastEmpathy,
+     Arcana,
+     MysticEndurance,
+     MysticArchives,
+     Empathy,
+     OccultInvestigation,
+     ElementalLore,
+     SixthSense,
+     DivineKnowledge,
+     ShadowWeaving,
+     WildernessAttunement,
+     ArcanePersuasion,
     }
