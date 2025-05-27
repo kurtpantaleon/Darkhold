@@ -1726,10 +1726,8 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  a: "Left Path \u2013 Arcane Corridor  A narrow corridor lined with glowing arcane
-    symbols. The walls pulse softly, as if trying to speak."
-  b: "Right Path \u2013 Whispering Abyss  A collapsed bridge stretches over a void.
-    Below, a whispering voice calls from the darkness."
+  a: "Left Path \u2013 Arcane Corridor  "
+  b: "Right Path \u2013 Whispering Abyss "
   c: 
   d: 
   dialogText: "\u201CNyxholm was the last frontier of our knowledge. Here, the greatest
