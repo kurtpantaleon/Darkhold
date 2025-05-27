@@ -138,7 +138,7 @@ public class NodeReader : MonoBehaviour
             if ((d20 + characterSheet.gameObject.GetComponent<CharacterStats>().hitpoints) >= ((AbilityCheckNode)node).getDC())
             {
                 return currentNode.GetOutputPort("success")?.Connection.node as BaseNode;
-            }
+            } 
             else
             {
                 return currentNode.GetOutputPort("failed")?.Connection.node as BaseNode;

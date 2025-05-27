@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 392, y: 1784}
+  position: {x: 360, y: 2168}
   ports:
     keys:
     - entry
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1192, y: 2024}
+  position: {x: -1224, y: 2408}
   ports:
     keys:
     - entry
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -984, y: -296}
+  position: {x: -872, y: 200}
   ports:
     keys:
     - entry
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1000, y: -824}
+  position: {x: -888, y: -888}
   ports:
     keys:
     - entry
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1096, y: 456}
+  position: {x: -1128, y: 840}
   ports:
     keys:
     - entry
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1848, y: 1672}
+  position: {x: -1880, y: 2056}
   ports:
     keys:
     - entry
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 344, y: 280}
+  position: {x: 312, y: 664}
   ports:
     keys:
     - entry
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 104, y: 1768}
+  position: {x: 72, y: 2152}
   ports:
     keys:
     - entry
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -168, y: 1768}
+  position: {x: -200, y: 2152}
   ports:
     keys:
     - entry
@@ -1668,7 +1668,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 344, y: 664}
+  position: {x: 312, y: 1048}
   ports:
     keys:
     - entry
@@ -2063,7 +2063,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -824, y: 1784}
+  position: {x: -856, y: 2168}
   ports:
     keys:
     - entry
@@ -2209,7 +2209,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -504, y: 1400}
+  position: {x: -536, y: 1784}
   ports:
     keys:
     - entry
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1368, y: 424}
+  position: {x: -1400, y: 808}
   ports:
     keys:
     - entry
@@ -2619,7 +2619,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -840, y: 456}
+  position: {x: -872, y: 840}
   ports:
     keys:
     - entry
@@ -2826,7 +2826,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -216, y: 328}
+  position: {x: -248, y: 712}
   ports:
     keys:
     - entry
@@ -2971,7 +2971,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1624, y: 424}
+  position: {x: -1656, y: 808}
   ports:
     keys:
     - entry
@@ -3075,7 +3075,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1496, y: 1656}
+  position: {x: -1528, y: 2040}
   ports:
     keys:
     - entry
@@ -3171,8 +3171,8 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: Attempting to do the puzzle
-  dialogImage: {fileID: 0}
-  difficultyCheckValue: 10
+  dialogImage: {fileID: -855298285791758126, guid: 3e2dc66b28cc209429eb28319144448e, type: 3}
+  difficultyCheckValue: 100
   abilityCheck: 8
 --- !u!114 &2986843412522654872
 MonoBehaviour:
@@ -3323,7 +3323,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1176, y: 1656}
+  position: {x: -1208, y: 2040}
   ports:
     keys:
     - entry
@@ -3457,7 +3457,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 104, y: 664}
+  position: {x: 72, y: 1048}
   ports:
     keys:
     - entry
@@ -3752,7 +3752,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -472, y: 1768}
+  position: {x: -504, y: 2152}
   ports:
     keys:
     - entry
@@ -4048,7 +4048,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -520, y: 440}
+  position: {x: -552, y: 824}
   ports:
     keys:
     - entry
@@ -4167,7 +4167,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1272, y: 1784}
+  position: {x: 1240, y: 2168}
   ports:
     keys:
     - entry
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -744, y: -424}
+  position: {x: -728, y: -344}
   ports:
     keys:
     - entry
@@ -4343,7 +4343,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 968, y: 1784}
+  position: {x: 936, y: 2168}
   ports:
     keys:
     - entry
@@ -4618,7 +4618,7 @@ MonoBehaviour:
   m_Name: Damage
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -264, y: -456}
+  position: {x: -264, y: -520}
   ports:
     keys:
     - entry
@@ -4651,7 +4651,7 @@ MonoBehaviour:
   exit: {fileID: 0}
   entry: 
   damageAmount: 3
-  damageDialog: Failed You took 3 damage
+  damageDialog: (Failed) You took 3 damage
 --- !u!114 &8024521814443869360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4665,7 +4665,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -200, y: 712}
+  position: {x: -232, y: 1096}
   ports:
     keys:
     - entry
@@ -4728,7 +4728,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 104, y: 280}
+  position: {x: 72, y: 664}
   ports:
     keys:
     - entry
@@ -4775,7 +4775,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 696, y: 1768}
+  position: {x: 664, y: 2152}
   ports:
     keys:
     - entry
@@ -4850,7 +4850,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -504, y: 1032}
+  position: {x: -536, y: 1416}
   ports:
     keys:
     - entry
@@ -4899,7 +4899,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1880, y: 424}
+  position: {x: -1912, y: 808}
   ports:
     keys:
     - entry
@@ -4951,7 +4951,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1496, y: 2024}
+  position: {x: -1528, y: 2408}
   ports:
     keys:
     - entry

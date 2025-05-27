@@ -11,12 +11,13 @@ public class DamageNode : BaseNode
     public int damageAmount = 5;
     [TextArea(3, 5)]
     public string damageDialog;
+		public Sprite dialogImage;
 
     public override string getDialogText() {
         return damageDialog;
     }
 
     public override Sprite GetSprite() {
-        return null;
+        return dialogImage;
     }
 }
