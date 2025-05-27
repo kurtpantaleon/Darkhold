@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CharacterStatsDisplay : MonoBehaviour
 {
@@ -44,5 +45,10 @@ public class CharacterStatsDisplay : MonoBehaviour
         wardrobeText.text = data.Wardrobe;
         itemsText.text = data.Items;
         characterImage.sprite = data.CharacterSprite;
+    }
+
+    public void GoBackToCharacterSelect()
+    {
+        SceneManager.LoadScene("ChooseCharacters");
     }
 }

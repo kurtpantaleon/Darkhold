@@ -22,10 +22,7 @@ public class CharacterSelector : MonoBehaviour
             characterDisplay.sprite = data.CharacterSprite;
             characterDisplay.color = Color.white;
 
-            // No more CharacterStats logic here
-
-            // Load the next scene
-            SceneManager.LoadScene("ViewCharacterStats");
+            // DO NOT load the scene here!
         }
     }
 
