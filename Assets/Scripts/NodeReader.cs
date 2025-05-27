@@ -73,25 +73,50 @@ public class NodeReader : MonoBehaviour
 
     private BaseNode GetNextNode(BaseNode node)
     {
-        if (node is MultipleChoiceDialog)
+        if (node is WeaponChoiceDialog)
         {
             GameObject clickButton = EventSystem.current.currentSelectedGameObject;
-
             TMP_Text buttonText = clickButton.GetComponentInChildren<TMP_Text>();
+            WeaponChoiceDialog weaponChoiceNode = (WeaponChoiceDialog)node;
 
-            if (buttonText.text == ((MultipleChoiceDialog)node).a)
+            if (buttonText.text == weaponChoiceNode.weaponA)
             {
                 return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
             }
-            if (buttonText.text == ((MultipleChoiceDialog)node).b)
+            if (buttonText.text == weaponChoiceNode.weaponB)
             {
                 return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
             }
-            if (buttonText.text == ((MultipleChoiceDialog)node).c)
+            if (buttonText.text == weaponChoiceNode.weaponC)
             {
                 return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
             }
-            if (buttonText.text == ((MultipleChoiceDialog)node).d)
+            if (buttonText.text == weaponChoiceNode.weaponD)
+            {
+                return currentNode.GetOutputPort("d")?.Connection.node as BaseNode;
+            }
+
+            return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
+        }
+        else if (node is MultipleChoiceDialog)
+        {
+            GameObject clickButton = EventSystem.current.currentSelectedGameObject;
+            TMP_Text buttonText = clickButton.GetComponentInChildren<TMP_Text>();
+            MultipleChoiceDialog multipleChoiceNode = (MultipleChoiceDialog)node;
+
+            if (buttonText.text == multipleChoiceNode.a)
+            {
+                return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
+            }
+            if (buttonText.text == multipleChoiceNode.b)
+            {
+                return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
+            }
+            if (buttonText.text == multipleChoiceNode.c)
+            {
+                return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
+            }
+            if (buttonText.text == multipleChoiceNode.d)
             {
                 return currentNode.GetOutputPort("d")?.Connection.node as BaseNode;
             }
@@ -136,7 +161,38 @@ public class NodeReader : MonoBehaviour
             }
         }
 
-        if (node is MultipleChoiceDialog multipleChoiceNode) {
+        if (node is WeaponChoiceDialog weaponChoiceNode) {
+            nextButtonGO.SetActive(false);
+
+            if (!string.IsNullOrWhiteSpace(weaponChoiceNode.weaponA)) {
+                buttonA.SetActive(true);
+                buttonAText.text = weaponChoiceNode.weaponA;
+            } else {
+                buttonA.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(weaponChoiceNode.weaponB)) {
+                buttonB.SetActive(true);
+                buttonBText.text = weaponChoiceNode.weaponB;
+            } else {
+                buttonB.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(weaponChoiceNode.weaponC)) {
+                buttonC.SetActive(true);
+                buttonCText.text = weaponChoiceNode.weaponC;
+            } else {
+                buttonC.SetActive(false);
+            }
+
+            if (!string.IsNullOrWhiteSpace(weaponChoiceNode.weaponD)) {
+                buttonD.SetActive(true);
+                buttonDText.text = weaponChoiceNode.weaponD;
+            } else {
+                buttonD.SetActive(false);
+            }
+        }
+        else if (node is MultipleChoiceDialog multipleChoiceNode) {
             nextButtonGO.SetActive(false);
 
             if (!string.IsNullOrWhiteSpace(multipleChoiceNode.a)) {
