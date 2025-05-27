@@ -23,6 +23,14 @@ public class CharacterStatsDisplay : MonoBehaviour
     public TMP_Text itemsText;
     public Image characterImage;
 
+    // Saving Throws
+    public TMP_Text strengthText;
+    public TMP_Text dexterityText;
+    public TMP_Text constitutionText;
+    public TMP_Text wisdomText;
+    public TMP_Text intelligenceText;
+    public TMP_Text charismaText;
+
     void Start()
     {
         var data = SelectedCharacter.currentCharacter;
@@ -45,6 +53,14 @@ public class CharacterStatsDisplay : MonoBehaviour
         wardrobeText.text = data.Wardrobe;
         itemsText.text = data.Items;
         characterImage.sprite = data.CharacterSprite;
+
+        // Set Saving Throws
+        strengthText.text = data.Strength.ToString();
+        dexterityText.text = data.Dexterity.ToString();
+        constitutionText.text = data.Constitution.ToString();
+        wisdomText.text = data.Wisdom.ToString();
+        intelligenceText.text = data.Intelligence.ToString();
+        charismaText.text = data.Charisma.ToString();
     }
 
     public void GoBackToCharacterSelect()
