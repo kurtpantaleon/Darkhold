@@ -342,6 +342,7 @@ GameObject:
   - component: {fileID: 311769866}
   - component: {fileID: 311769865}
   - component: {fileID: 311769864}
+  - component: {fileID: 311769867}
   m_Layer: 5
   m_Name: Human BTN
   m_TagString: Untagged
@@ -463,6 +464,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311769862}
   m_CullTransparentMesh: 1
+--- !u!114 &311769867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311769862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &406142746
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +815,7 @@ GameObject:
   - component: {fileID: 714560645}
   - component: {fileID: 714560644}
   - component: {fileID: 714560643}
+  - component: {fileID: 714560646}
   m_Layer: 5
   m_Name: Undead BTN
   m_TagString: Untagged
@@ -922,6 +937,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714560641}
   m_CullTransparentMesh: 1
+--- !u!114 &714560646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714560641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &734035344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,6 +1202,7 @@ GameObject:
   - component: {fileID: 859589382}
   - component: {fileID: 859589381}
   - component: {fileID: 859589380}
+  - component: {fileID: 859589383}
   m_Layer: 5
   m_Name: Fae BTN
   m_TagString: Untagged
@@ -1295,6 +1324,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859589378}
   m_CullTransparentMesh: 1
+--- !u!114 &859589383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859589378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &868654025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,6 +1849,7 @@ GameObject:
   - component: {fileID: 1225117621}
   - component: {fileID: 1225117620}
   - component: {fileID: 1225117619}
+  - component: {fileID: 1225117622}
   m_Layer: 5
   m_Name: Dragonborn BTN
   m_TagString: Untagged
@@ -1928,6 +1971,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225117617}
   m_CullTransparentMesh: 1
+--- !u!114 &1225117622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225117617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &1262022349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +1996,7 @@ GameObject:
   - component: {fileID: 1262022353}
   - component: {fileID: 1262022352}
   - component: {fileID: 1262022351}
+  - component: {fileID: 1262022354}
   m_Layer: 5
   m_Name: ViewStatsBTN
   m_TagString: Untagged
@@ -2061,6 +2118,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262022349}
   m_CullTransparentMesh: 1
+--- !u!114 &1262022354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262022349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &1269179387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,6 +2143,7 @@ GameObject:
   - component: {fileID: 1269179391}
   - component: {fileID: 1269179390}
   - component: {fileID: 1269179389}
+  - component: {fileID: 1269179392}
   m_Layer: 5
   m_Name: Elf BTN
   m_TagString: Untagged
@@ -2194,6 +2265,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269179387}
   m_CullTransparentMesh: 1
+--- !u!114 &1269179392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269179387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &1407494047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2290,7 @@ GameObject:
   - component: {fileID: 1407494051}
   - component: {fileID: 1407494050}
   - component: {fileID: 1407494049}
+  - component: {fileID: 1407494052}
   m_Layer: 5
   m_Name: Orc BTN
   m_TagString: Untagged
@@ -2327,6 +2412,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407494047}
   m_CullTransparentMesh: 1
+--- !u!114 &1407494052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407494047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &1430182729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2794,6 +2892,7 @@ GameObject:
   - component: {fileID: 1824588425}
   - component: {fileID: 1824588424}
   - component: {fileID: 1824588423}
+  - component: {fileID: 1824588426}
   m_Layer: 5
   m_Name: Dwarf BTN
   m_TagString: Untagged
@@ -2915,6 +3014,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824588421}
   m_CullTransparentMesh: 1
+--- !u!114 &1824588426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824588421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8966ba5607f2c54ab086076e489652e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSound: {fileID: 8300000, guid: 4468f26dcc10eba429f96381918e8eb4, type: 3}
 --- !u!1 &1932082126
 GameObject:
   m_ObjectHideFlags: 0
