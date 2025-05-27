@@ -1249,109 +1249,6 @@ MonoBehaviour:
     meant to be opened."'
   dialogImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
   backgroundMusic: 0
---- !u!114 &-4649671258766480473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc2e78dfa28a32d4f9f131332be5a7c4, type: 3}
-  m_Name: Weapon Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -1720, y: -1752}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    - d
-    values:
-    - _fieldName: entry
-      _node: {fileID: -4649671258766480473}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: a
-        node: {fileID: 4812853799699899834}
-        reroutePoints: []
-      - fieldName: b
-        node: {fileID: 4812853799699899834}
-        reroutePoints: []
-      - fieldName: c
-        node: {fileID: 4812853799699899834}
-        reroutePoints: []
-      - fieldName: d
-        node: {fileID: 4812853799699899834}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: -4649671258766480473}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1299602483986935916}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: -4649671258766480473}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1299602483986935916}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: -4649671258766480473}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1299602483986935916}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: d
-      _node: {fileID: -4649671258766480473}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1299602483986935916}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: 
-  b: 
-  c: 
-  d: 
-  dialogText: pili again
-  dialogImage: {fileID: 0}
-  weaponA: sword
-  weaponB: axe
-  weaponC: bow
-  weaponD: 
-  backgroundMusic: 0
 --- !u!114 &-4627785045365344245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,17 +2475,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: a
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      - fieldName: b
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      - fieldName: c
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      - fieldName: d
-        node: {fileID: -4649671258766480473}
+      - fieldName: exit
+        node: {fileID: 8472494947347105659}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -3183,8 +3071,6 @@ MonoBehaviour:
   - {fileID: 3139383201668171071}
   - {fileID: -1949585735952155932}
   - {fileID: 5645420486945672343}
-  - {fileID: 4812853799699899834}
-  - {fileID: -4649671258766480473}
 --- !u!114 &211926345268902803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4502,100 +4388,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
---- !u!114 &4812853799699899834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc2e78dfa28a32d4f9f131332be5a7c4, type: 3}
-  m_Name: Weapon Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -2024, y: -1256}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    - d
-    values:
-    - _fieldName: entry
-      _node: {fileID: 4812853799699899834}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 8472494947347105659}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 4812853799699899834}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 4812853799699899834}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: 4812853799699899834}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: d
-      _node: {fileID: 4812853799699899834}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4649671258766480473}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: 
-  b: 
-  c: 
-  d: 
-  dialogText: pili
-  dialogImage: {fileID: 0}
-  weaponA: sword
-  weaponB: axe
-  weaponC: bow
-  weaponD: 
-  backgroundMusic: 0
 --- !u!114 &4948524398978470190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5725,7 +5517,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 4812853799699899834}
+        node: {fileID: -1299602483986935916}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
