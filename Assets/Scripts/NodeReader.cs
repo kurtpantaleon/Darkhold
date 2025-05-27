@@ -42,6 +42,8 @@ public class NodeReader : MonoBehaviour
     public Vector2 onScreenPosition = new Vector2(0, 0); 
     public float nodeReaderslideDuration = 2.5f;
 
+    public InventoryPanel inventoryPanel;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -78,6 +80,13 @@ public class NodeReader : MonoBehaviour
             GameObject clickButton = EventSystem.current.currentSelectedGameObject;
             TMP_Text buttonText = clickButton.GetComponentInChildren<TMP_Text>();
             WeaponChoiceDialog weaponChoiceNode = (WeaponChoiceDialog)node;
+
+            // Show inventory panel with selected weapon
+            string selectedWeapon = weaponChoiceNode.GetSelectedWeapon(buttonText.text);
+            if (selectedWeapon != null)
+            {
+                inventoryPanel.ShowInventory(selectedWeapon);
+            }
 
             if (buttonText.text == weaponChoiceNode.weaponA)
             {

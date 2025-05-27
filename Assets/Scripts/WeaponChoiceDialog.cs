@@ -45,4 +45,13 @@ public class WeaponChoiceDialog : BaseNode {
     {
         return backgroundMusic;
     }
+
+    public string GetSelectedWeapon(string buttonText)
+    {
+        if (buttonText == weaponA) return weaponA;
+        if (buttonText == weaponB) return weaponB;
+        if (buttonText == weaponC) return weaponC;
+        if (buttonText == weaponD) return weaponD;
+        return null;
+    }
 } 
