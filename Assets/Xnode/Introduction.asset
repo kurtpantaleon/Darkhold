@@ -221,6 +221,85 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
+--- !u!114 &-6978408506084017576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1000, y: 2200}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6978408506084017576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 8827624061421353983}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -6978408506084017576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -6978408506084017576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: -6978408506084017576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -6978408506084017576}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: "\u201CWe\u2019ll take your place.\u201D "
+  b: "\u201CWe won\u2019t let you fall.\u201D "
+  c: 
+  d: 
+  dialogText: "Fractured One: \n\n\"You don\u2019t understand. If I let go, Icarus
+    falls. But if I stay\u2026 I vanish.\""
+  dialogImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &-6889181857637941506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,6 +1085,88 @@ MonoBehaviour:
     a place abandoned long ago, erased from history.\u201D"
   exit: 
   backgroundImage: {fileID: -4178046375966092550, guid: d38e78b5b10d58341b1d701f8a87cff3, type: 3}
+  backgroundMusic: 0
+--- !u!114 &-4482706111083438121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1656, y: 1848}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: -4482706111083438121}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -4482706111083438121}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 2147619720871712229}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -4482706111083438121}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8827624061421353983}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: -4482706111083438121}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: -4482706111083438121}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: "\u201CWhat happened to you?\u201D"
+  b: "\u201CWe can still stop this."
+  c: 
+  d: 
+  dialogText: "Fractured One:\n\n \"You\u2019re too late\u2026 I am already becoming
+    something else.\""
+  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-4476570892273202051
 MonoBehaviour:
@@ -1956,6 +2117,52 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
+--- !u!114 &-728539713661948641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -632, y: 1960}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -728539713661948641}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -728539713661948641}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5095794839090398834}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "Fractured One: \n\n\"Then face me! If you survive\u2026 maybe you\u2019re
+    worthy to choose!\""
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &-666053629745349635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2479,13 @@ MonoBehaviour:
   - {fileID: -6483154298863670374}
   - {fileID: -4089095211068124008}
   - {fileID: 8189091873823124698}
+  - {fileID: -4482706111083438121}
+  - {fileID: 2147619720871712229}
+  - {fileID: 8827624061421353983}
+  - {fileID: 3701364436982733990}
+  - {fileID: -6978408506084017576}
+  - {fileID: -728539713661948641}
+  - {fileID: 5095794839090398834}
 --- !u!114 &230721172992444770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2738,6 +2952,55 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 8288426215254106694, guid: 002d7eeb1192c6644822038650e6a199, type: 3}
   backgroundMusic: 0
+--- !u!114 &2147619720871712229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1304, y: 1832}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 2147619720871712229}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -4482706111083438121}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 2147619720871712229}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 3701364436982733990}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "Narrative Result: \n\nThe Fractured One opens up emotionally. You
+    get lore: they fused with the Nexus to hold the city together."
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
 --- !u!114 &2642207170535648203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,6 +3249,85 @@ MonoBehaviour:
     the unknown\u2026 who are you?\u201D"
   exit: 
   backgroundImage: {fileID: 4130640169021434097, guid: 9867881041a12c64eab683991d80ad52, type: 3}
+  backgroundMusic: 0
+--- !u!114 &3701364436982733990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -984, y: 1832}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: 3701364436982733990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2147619720871712229}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: 3701364436982733990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: 3701364436982733990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: 3701364436982733990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: 3701364436982733990}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: "\u201CLet us help you.\u201D"
+  b: "\u201CThis is your fault.\u201D"
+  c: 
+  d: 
+  dialogText: "Narrative Result: \n\nThe Fractured One opens up emotionally. You
+    get lore: they fused with the Nexus to hold the city together."
+  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &4561783032217258826
 MonoBehaviour:
@@ -3239,6 +3581,85 @@ MonoBehaviour:
   dialogText: 'Failure: You are restrained and hear countless voices.'
   exit: 
   backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &5095794839090398834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -296, y: 1976}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    - d
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5095794839090398834}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -728539713661948641}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: 5095794839090398834}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: 5095794839090398834}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: 5095794839090398834}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: d
+      _node: {fileID: 5095794839090398834}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: "\u201CLet go. We\u2019ll fix this.\u201D"
+  b: "\u201CI\u2019ll take your place.\u201D "
+  c: "\u201CThis ends now!\u201D"
+  d: 
+  dialogText: "Fractured One (weakened): \n\n\"The Nexus\u2026 is splitting me. You
+    must choose\u2026 what comes next.\""
+  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &5335536582476669586
 MonoBehaviour:
@@ -4007,6 +4428,54 @@ MonoBehaviour:
     whispers, once faint, now surround you, constant and suffocating. The corridor
     ahead is different. The stone is ancient, and the walls are adorned with symbols
     and writings that even the most learned scholars cannot comprehend.'
+  exit: 
+  backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &8827624061421353983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1304, y: 2200}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8827624061421353983}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: -4482706111083438121}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 8827624061421353983}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6978408506084017576}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: "Narrative Result: \n\nThey express hopelessness, doubting a solution"
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
