@@ -1794,7 +1794,7 @@ MonoBehaviour:
     and distant magical lanterns flicker erratically."
   exit: 
   backgroundImage: {fileID: -6470460504253458178, guid: 9e98026808c98dc4c9a4e92210e4780b, type: 3}
-  backgroundMusic: 0
+  backgroundMusic: 1
 --- !u!114 &-3030587830225876609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4670,7 +4670,7 @@ MonoBehaviour:
     are among the most capable wielders of magic and scholars of the arcane.\u201D"
   exit: 
   backgroundImage: {fileID: 8517870006439156754, guid: ae4b27acb838fa747b5099323601e381, type: 3}
-  backgroundMusic: 0
+  backgroundMusic: 1
 --- !u!114 &5499969748082161995
 MonoBehaviour:
   m_ObjectHideFlags: 0
