@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Long
   race: Dwarf
   expertise: 
-  characterSprite: {fileID: 5402251393668616626, guid: f0b1b95d4fef9934eb0e936452071e65, type: 3}
+  characterSprite: {fileID: 8556873027953488836, guid: ae6632920d7c8ec4ab40f9de7f9f23ab, type: 3}
   strength: 10
   dexterity: 6
   constitution: 16

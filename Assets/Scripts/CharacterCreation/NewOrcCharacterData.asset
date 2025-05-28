@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Bald
   race: Orc
   expertise: 
-  characterSprite: {fileID: 6362832775884612094, guid: 536728c343645254db0427162f6e8917, type: 3}
+  characterSprite: {fileID: -747262651025688622, guid: a2056783b4e281e4eb9f664c8827da49, type: 3}
   strength: 16
   dexterity: 6
   constitution: 12

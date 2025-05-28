@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Dragon
   race: Dragonborn
   expertise: 
-  characterSprite: {fileID: -2890073026582657527, guid: eb847c1ee7d01134b855e6fee606e6e5, type: 3}
+  characterSprite: {fileID: 637045604462146660, guid: 724f50f777b2d2044839baff517a0f40, type: 3}
   strength: 10
   dexterity: 6
   constitution: 7
