@@ -474,7 +474,7 @@ MonoBehaviour:
   c: 
   d: 
   dialogText: "Fractured One: \n\n\"Then... you are brave. And cursed.\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 1270987618666691537, guid: d4edac80457ac0a49a8db7f478d3f26c, type: 3}
   backgroundMusic: 0
 --- !u!114 &-7443622745553252428
 MonoBehaviour:
@@ -522,7 +522,7 @@ MonoBehaviour:
   entry: 
   dialogText: Stay and Face it, fight for your Lives
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
   backgroundMusic: 0
 --- !u!114 &-6978408506084017576
 MonoBehaviour:
@@ -607,7 +607,7 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One: \n\n\"You don\u2019t understand. If I let go, Icarus
     falls. But if I stay\u2026 I vanish.\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -5744175361161418795, guid: 3c544f6a902bd58429107aab03c21639, type: 3}
   backgroundMusic: 0
 --- !u!114 &-6927977295614014743
 MonoBehaviour:
@@ -685,7 +685,7 @@ MonoBehaviour:
   d: 
   dialogText: "The magic runes keeping the platform stable are failing. If you don\u2019t
     act now, the platform will crash into the ruins below."
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 1270987618666691537, guid: d4edac80457ac0a49a8db7f478d3f26c, type: 3}
   backgroundMusic: 0
 --- !u!114 &-6736439109270818090
 MonoBehaviour:
@@ -1614,7 +1614,7 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One:\n\n \"You\u2019re too late\u2026 I am already becoming
     something else.\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 1270987618666691537, guid: d4edac80457ac0a49a8db7f478d3f26c, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3870333178119573106
 MonoBehaviour:
@@ -1813,7 +1813,7 @@ MonoBehaviour:
   entry: 
   dialogText: "\n\"You are remembered not as warriors\u2014but as saviors.\""
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 505155827706554852, guid: 0d9ef847d6b87d7418e507b79261b31b, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3393959628467649675
 MonoBehaviour:
@@ -1947,7 +1947,7 @@ MonoBehaviour:
   dialogText: "\u201CNyxholm was the last frontier of our knowledge. Here, the greatest
     minds wove power beyond our grasp. But one truth was clear: some doors were never
     meant to be opened.\u201D\n"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -4987914821148657504, guid: b0bfe5ab8a50d4a499b6739426326c87, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3283787738226304283
 MonoBehaviour:
@@ -2217,7 +2217,7 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One: \n\n\"Then... I leave it to you. Save what\u2019s left
     of us...\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
   backgroundMusic: 0
 --- !u!114 &-2694574767792645116
 MonoBehaviour:
@@ -2882,7 +2882,7 @@ MonoBehaviour:
   dialogText: "Fractured One: \n\n\"Then face me! If you survive\u2026 maybe you\u2019re
     worthy to choose!\""
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
   backgroundMusic: 0
 --- !u!114 &-673734822885929014
 MonoBehaviour:
@@ -3711,7 +3711,7 @@ MonoBehaviour:
   failed: 
   dialogText: 'Condition: Player Persuasion >= 15'
   dialogImage: {fileID: 8495783847012160492, guid: c32d6eab20aeb814db4c03d6a91127ba, type: 3}
-  difficultyCheckValue: 0
+  difficultyCheckValue: 15
   abilityCheck: 0
 --- !u!114 &1190516369769192081
 MonoBehaviour:
@@ -4057,7 +4057,7 @@ MonoBehaviour:
   dialogText: "Narrative Result: \n\nThe Fractured One opens up emotionally. You
     get lore: they fused with the Nexus to hold the city together."
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
   backgroundMusic: 0
 --- !u!114 &2560690430044178524
 MonoBehaviour:
@@ -4467,7 +4467,7 @@ MonoBehaviour:
   d: 
   dialogText: "Narrative Result: \n\nThe Fractured One opens up emotionally. You
     get lore: they fused with the Nexus to hold the city together."
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 7722788307976010085, guid: 2759292088eab694b84d60743aa00062, type: 3}
   backgroundMusic: 0
 --- !u!114 &3787902178976346660
 MonoBehaviour:
@@ -4521,8 +4521,8 @@ MonoBehaviour:
   failed: 
   dialogText: 'Dexterity Save (DC 12): Try to catch yourself before falling off the
     platform.'
-  dialogImage: {fileID: 0}
-  difficultyCheckValue: 0
+  dialogImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
+  difficultyCheckValue: 12
   abilityCheck: 0
 --- !u!114 &3856113498901305742
 MonoBehaviour:
@@ -4949,7 +4949,7 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One (weakened): \n\n\"The Nexus\u2026 is splitting me. You
     must choose\u2026 what comes next.\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 7722788307976010085, guid: 2759292088eab694b84d60743aa00062, type: 3}
   backgroundMusic: 0
 --- !u!114 &5317349972366283891
 MonoBehaviour:
@@ -5421,7 +5421,7 @@ MonoBehaviour:
   entry: 
   dialogText: "\"The world will remember your failure\u2014or your defiance.\""
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 505155827706554852, guid: 0d9ef847d6b87d7418e507b79261b31b, type: 3}
   backgroundMusic: 0
 --- !u!114 &6049091444371789007
 MonoBehaviour:
@@ -5739,7 +5739,7 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One: \n\n\"You would destroy everything?! Then DIE with
     it!\""
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 1270987618666691537, guid: d4edac80457ac0a49a8db7f478d3f26c, type: 3}
   backgroundMusic: 0
 --- !u!114 &6443892631831589778
 MonoBehaviour:
@@ -6323,7 +6323,7 @@ MonoBehaviour:
 
     "Power claimed. A burden accepted. But at what cost?"'
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -502472086271771014, guid: 8cd24a0591d8e724e9fcf732278f45f1, type: 3}
   backgroundMusic: 0
 --- !u!114 &8419156035319900120
 MonoBehaviour:
@@ -6590,5 +6590,5 @@ MonoBehaviour:
   entry: 
   dialogText: "Narrative Result: \n\nThey express hopelessness, doubting a solution"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -6642546021502082536, guid: 8808a38985160414f929173d0f83b910, type: 3}
   backgroundMusic: 0
