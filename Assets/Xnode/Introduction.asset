@@ -334,7 +334,7 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: Investigate the Runes (Arcana DC 14 / Occult Investigation DC 12)
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 2174028493023228853, guid: 30e4b1277a7e647458aa59514657619d, type: 3}
   difficultyCheckValue: 14
   abilityCheck: 8
 --- !u!114 &-7636084445555933826
@@ -1195,7 +1195,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -3658677536497691220, guid: cafbb40df9c2c054792b5e75dae5d956, type: 3}
   backgroundMusic: 0
 --- !u!114 &-5189406845092432542
 MonoBehaviour:
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   dialogText: "\u201CNyxholm was the last frontier of our knowledge. Here, the greatest
     minds wove power beyond our grasp. But one truth was clear: some doors were never
     meant to be opened.\u201D\n"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 2898604458111708808, guid: c578f44d16f96f14e96b876775847561, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3283787738226304283
 MonoBehaviour:
@@ -3582,7 +3582,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2174028493023228853, guid: 30e4b1277a7e647458aa59514657619d, type: 3}
   backgroundMusic: 0
 --- !u!114 &900125685826078127
 MonoBehaviour:
@@ -3893,8 +3893,13 @@ MonoBehaviour:
   failed: 
   dialogText: Intelligence DC 14 to unlock
   dialogImage: {fileID: 0}
+<<<<<<< Updated upstream
   difficultyCheckValue: 0
   abilityCheck: 4
+=======
+  difficultyCheckValue: 2
+  abilityCheck: 0
+>>>>>>> Stashed changes
 --- !u!114 &1782145027424113684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3942,7 +3947,7 @@ MonoBehaviour:
   dialogText: "You See: (if fail)\n\"Remain\u2026 open \u2026 gate \u2026 calls to
     you. Battle.\""
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -3658677536497691220, guid: cafbb40df9c2c054792b5e75dae5d956, type: 3}
   backgroundMusic: 0
 --- !u!114 &1817921313452029076
 MonoBehaviour:
@@ -4183,7 +4188,7 @@ MonoBehaviour:
     mark of endings, shadowed by the dusk.\u201D\n\u201CThe last bears the path of
     balance, standing between extremes.\u201D"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2508076209106177942, guid: 3c536146a2c7e964ea2b58717f34e864, type: 3}
   backgroundMusic: 0
 --- !u!114 &3123392315559188828
 MonoBehaviour:
@@ -5349,7 +5354,7 @@ MonoBehaviour:
     pulses with a heartbeat rhythm.
 
 '
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3658677536497691220, guid: cafbb40df9c2c054792b5e75dae5d956, type: 3}
   backgroundMusic: 0
 --- !u!114 &5909969628475745536
 MonoBehaviour:
@@ -5528,7 +5533,7 @@ MonoBehaviour:
   d: 
   dialogText: "At the corridor\u2019s end is a sealed archway of pulsing runes. A
     puzzle awaits three glowing sigils and a missing pattern"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 2508076209106177942, guid: 3c536146a2c7e964ea2b58717f34e864, type: 3}
   backgroundMusic: 0
 --- !u!114 &6264344831070200956
 MonoBehaviour:
