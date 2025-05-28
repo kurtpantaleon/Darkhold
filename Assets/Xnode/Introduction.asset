@@ -224,7 +224,7 @@ MonoBehaviour:
   dialogText: 'The Chronicles reveals a message might be useful
 
 '
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -8237918150594023817, guid: 1ec72fe5478f44142b5f048416fb6907, type: 3}
   backgroundMusic: 0
 --- !u!114 &-8233857301354992686
 MonoBehaviour:
@@ -337,7 +337,7 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: Investigate the Runes (Arcana DC 14 / Occult Investigation DC 12)
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3658677536497691220, guid: 5b0bf6476ed0083478908aef90893230, type: 3}
   difficultyCheckValue: 14
   abilityCheck: 8
 --- !u!114 &-7636084445555933826
@@ -387,7 +387,7 @@ MonoBehaviour:
   dialogText: The door remains sealed and triggers magical shockwave, dealing (1d6)
     force damage and resetting the puzzle.
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2898604458111708808, guid: f8eb9f724914e5b41812a80001034bb1, type: 3}
   backgroundMusic: 0
 --- !u!114 &-7598961546941476861
 MonoBehaviour:
@@ -1207,7 +1207,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2898604458111708808, guid: f8eb9f724914e5b41812a80001034bb1, type: 3}
   backgroundMusic: 0
 --- !u!114 &-5189406845092432542
 MonoBehaviour:
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 376, y: -888}
+  position: {x: 424, y: -888}
   ports:
     keys:
     - entry
@@ -2357,7 +2357,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -8237918150594023817, guid: 1ec72fe5478f44142b5f048416fb6907, type: 3}
   backgroundMusic: 0
 --- !u!114 &-2240596910897510673
 MonoBehaviour:
@@ -3593,7 +3593,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2174028493023228853, guid: ced7a75078a7c0d45b09646e40f27ba3, type: 3}
   backgroundMusic: 0
 --- !u!114 &900125685826078127
 MonoBehaviour:
@@ -3903,8 +3903,8 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: Intelligence DC 14 to unlock
-  dialogImage: {fileID: 0}
-  difficultyCheckValue: 0
+  dialogImage: {fileID: -8237918150594023817, guid: 1ec72fe5478f44142b5f048416fb6907, type: 3}
+  difficultyCheckValue: 6
   abilityCheck: 4
 --- !u!114 &1782145027424113684
 MonoBehaviour:
@@ -3953,7 +3953,7 @@ MonoBehaviour:
   dialogText: "You See: (if fail)\n\"Remain\u2026 open \u2026 gate \u2026 calls to
     you. Battle.\""
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2898604458111708808, guid: f8eb9f724914e5b41812a80001034bb1, type: 3}
   backgroundMusic: 0
 --- !u!114 &1817921313452029076
 MonoBehaviour:
@@ -4150,6 +4150,51 @@ MonoBehaviour:
   dialogText: "Then\u2014a sudden tremor runs through your bag.\n"
   exit: 
   backgroundImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &3037081354862380785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: -424}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 3037081354862380785}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 3037081354862380785}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 11
+  dialogText: "The Chronicles reveals a message might be useful\n\n\u201CThe beginning
+    is marked by the one that faces the dawn.\u201D\n\u201CThe second follows the
+    mark of endings, shadowed by the dusk.\u201D\n\u201CThe last bears the path of
+    balance, standing between extremes.\u201D"
+  exit: 
+  backgroundImage: {fileID: 2508076209106177942, guid: 97079a5ae2fd9c745a319d0277c5f1d0, type: 3}
   backgroundMusic: 0
 --- !u!114 &3123392315559188828
 MonoBehaviour:
@@ -5318,7 +5363,7 @@ MonoBehaviour:
     pulses with a heartbeat rhythm.
 
 '
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3658677536497691220, guid: 5b0bf6476ed0083478908aef90893230, type: 3}
   backgroundMusic: 0
 --- !u!114 &5909969628475745536
 MonoBehaviour:
@@ -5497,7 +5542,7 @@ MonoBehaviour:
   d: 
   dialogText: "At the corridor\u2019s end is a sealed archway of pulsing runes. A
     puzzle awaits three glowing sigils and a missing pattern"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3658677536497691220, guid: 5b0bf6476ed0083478908aef90893230, type: 3}
   backgroundMusic: 0
 --- !u!114 &6264344831070200956
 MonoBehaviour:
@@ -5966,7 +6011,7 @@ MonoBehaviour:
     second follows the mark of endings, shadowed by the dusk.\u201D\n\u201CThe last
     bears the path of balance, standing between extremes.\u201D\n"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 2508076209106177942, guid: 97079a5ae2fd9c745a319d0277c5f1d0, type: 3}
   backgroundMusic: 0
 --- !u!114 &7685954324748334370
 MonoBehaviour:
