@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Long
   race: Fae
   expertise: 
-  characterSprite: {fileID: -1512658751467261533, guid: be5b54fdf0d4c314aba4908632e5972b, type: 3}
+  characterSprite: {fileID: 8164699789777891127, guid: b2d7f74efe60a5d45bb4943d5485ac53, type: 3}
   strength: 5
   dexterity: 14
   constitution: 4
