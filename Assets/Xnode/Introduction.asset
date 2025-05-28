@@ -609,84 +609,6 @@ MonoBehaviour:
     falls. But if I stay\u2026 I vanish.\""
   dialogImage: {fileID: -5744175361161418795, guid: 3c544f6a902bd58429107aab03c21639, type: 3}
   backgroundMusic: 0
---- !u!114 &-6927977295614014743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
-  m_Name: Multiple Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -2104, y: 3624}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    - d
-    values:
-    - _fieldName: entry
-      _node: {fileID: -6927977295614014743}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: -6927977295614014743}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: -6927977295614014743}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: -6927977295614014743}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: d
-      _node: {fileID: -6927977295614014743}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: 'Arcana (DC 14): Understand the magic causing the problem and try to stabilize
-    the runes.'
-  b: 'Occult Investigation (DC 12): Find the damaged runes and figure out how to
-    fix them. '
-  c: 'Aetherics (DC 13): Stay balanced as the platform shakes violently. '
-  d: 
-  dialogText: "The magic runes keeping the platform stable are failing. If you don\u2019t
-    act now, the platform will crash into the ruins below."
-  dialogImage: {fileID: 1270987618666691537, guid: d4edac80457ac0a49a8db7f478d3f26c, type: 3}
-  backgroundMusic: 0
 --- !u!114 &-6736439109270818090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,105 +748,6 @@ MonoBehaviour:
   buttonDImage: {fileID: 0}
   backgroundMusic: 0
   buttonClickSound: {fileID: 0}
---- !u!114 &-5739753617205521856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -232, y: 3480}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -5739753617205521856}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: a
-        node: {fileID: 211926345268902803}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -5739753617205521856}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -5706963184595623886}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: The Chronicle of Icarus bursts with dim golden light, its pages flipping
-    open on their own. Faint whispers rise from the book, a long-lost voice murmuring
-    forgotten knowledge.
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
---- !u!114 &-5706963184595623886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 72, y: 3448}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -5706963184595623886}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -5739753617205521856}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -5706963184595623886}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 4629606580874549220}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: "The glowing pages reveal an ancient illustration\u2014towering armored
-    constructs, their rune-forged bodies standing as sentinels before the city gates."
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &-5558867384226706777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1065,49 +888,6 @@ MonoBehaviour:
   d: 
   dialogText: Choose
   dialogImage: {fileID: -2602364568440791709, guid: fb00e1e4c6dcd7645b48fbe975c1197d, type: 3}
-  backgroundMusic: 0
---- !u!114 &-5488948589550088893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -1128, y: 3656}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -5488948589550088893}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -5488948589550088893}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: Massive ruins surround you, once grand buildings now worn and broken.
-    Strange symbols flicker weakly on the walls, as if trying to tell you something.
-  exit: 
-  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-5305823419752644151
 MonoBehaviour:
@@ -1719,54 +1499,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: -5924639914131010062, guid: d8726bd080f45d64ebfb90f02e58fdf6, type: 3}
   backgroundMusic: 0
---- !u!114 &-3646945135345767072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 72, y: 3880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -3646945135345767072}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 5317349972366283891}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -3646945135345767072}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 6049091444371789007}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: Then you hear movement.
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &-3466295216163330527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2268,50 +2000,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: -3480606835806699306, guid: 3b4f47255a73a6543961ced68ee7687f, type: 3}
   backgroundMusic: 0
---- !u!114 &-2681691804292198705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -1400, y: 3672}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -2681691804292198705}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -2681691804292198705}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: Through skill or luck, you manage to reach the ruined streets of Nyxholm.
-    The air feels wrong, thick with old, stagnant magic. The smell of burned stone
-    and decay lingers in the air.
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &-2462288829147484754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2495,51 +2183,6 @@ MonoBehaviour:
 '
   exit: 
   backgroundImage: {fileID: -1591088586461068335, guid: cb779d13886d2c74a9c3d8a9b8496e09, type: 3}
-  backgroundMusic: 0
---- !u!114 &-1949585735952155932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1272, y: 3720}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -1949585735952155932}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -1949585735952155932}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: "Rune-Forged Fragment \u2192 +1 Arcana check for ancient magic\nAether-Fused
-    Core \u2192 Restore 1d6 spell points or power a broken device\nWorld Thread Resonator\u2192
-    Advantage on 1 magical saving throw per long rest\nEcho of the Forgotten \u2192
-    Arcana DC 14: See a cryptic vision tied to Nyxholm\u2019s secret\n"
-  exit: 
-  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-1920638191349824098
 MonoBehaviour:
@@ -3203,48 +2846,6 @@ MonoBehaviour:
   dialogImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   difficultyCheckValue: 15
   abilityCheck: 0
---- !u!114 &-180600330931689885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 664, y: 3688}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -180600330931689885}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -180600330931689885}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: Their glowing eyes lock onto you.
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3285,21 +2886,6 @@ MonoBehaviour:
   - {fileID: 8163176943239057444}
   - {fileID: 6442321563564542835}
   - {fileID: 5909969628475745536}
-  - {fileID: -6927977295614014743}
-  - {fileID: 3787902178976346660}
-  - {fileID: -2681691804292198705}
-  - {fileID: -5488948589550088893}
-  - {fileID: 2986843412522654872}
-  - {fileID: 211926345268902803}
-  - {fileID: -5739753617205521856}
-  - {fileID: -5706963184595623886}
-  - {fileID: 4629606580874549220}
-  - {fileID: 5317349972366283891}
-  - {fileID: -3646945135345767072}
-  - {fileID: 6049091444371789007}
-  - {fileID: -180600330931689885}
-  - {fileID: 3139383201668171071}
-  - {fileID: -1949585735952155932}
   - {fileID: 5645420486945672343}
   - {fileID: 1400329656763026939}
   - {fileID: 104915439952916031}
@@ -3412,91 +2998,6 @@ MonoBehaviour:
     and a voice echoes from beyond the grave"
   exit: 
   backgroundImage: {fileID: 4331941399536179136, guid: 1cea99a3f93fb2a4fa2ded1148774670, type: 3}
-  backgroundMusic: 0
---- !u!114 &211926345268902803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7359effbfe962ac4e9bd1e43272fde6e, type: 3}
-  m_Name: Multiple Choice Dialog
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -584, y: 3624}
-  ports:
-    keys:
-    - entry
-    - a
-    - b
-    - c
-    - d
-    values:
-    - _fieldName: entry
-      _node: {fileID: 211926345268902803}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 211926345268902803}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -5739753617205521856}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 211926345268902803}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 5317349972366283891}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: 211926345268902803}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: d
-      _node: {fileID: 211926345268902803}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  a: Open the Bag
-  b: If No One Opens the Bag
-  c: 
-  d: 
-  dialogText: 'The satchel carrying the Chronicle of Icarus shakes violently, as
-    if reacting to something nearby. A faint hum pulses from within, sending arcane
-    vibrations up your arm.
-
-'
-  dialogImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &281313844024483405
 MonoBehaviour:
@@ -4113,48 +3614,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 8801322515442651880, guid: 2e69148ccdad7844eaff7adca4856127, type: 3}
   backgroundMusic: 0
---- !u!114 &2986843412522654872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -856, y: 3656}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 2986843412522654872}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 2986843412522654872}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: "Then\u2014a sudden tremor runs through your bag.\n"
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &3037081354862380785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4287,49 +3746,6 @@ MonoBehaviour:
   imageB: {fileID: 0}
   imageC: {fileID: 0}
   imageD: {fileID: 0}
-  backgroundMusic: 0
---- !u!114 &3139383201668171071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 952, y: 3688}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3139383201668171071}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 3139383201668171071}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: "Cassiel: \"That energy signature\u2014whatever is corrupting Nyxholm,
-    it\u2019s deep inside the ruins. You must move quickly.\"\n"
-  exit: 
-  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &3604846868462848699
 MonoBehaviour:
@@ -4469,61 +3885,6 @@ MonoBehaviour:
     get lore: they fused with the Nexus to hold the city together."
   dialogImage: {fileID: 7722788307976010085, guid: 2759292088eab694b84d60743aa00062, type: 3}
   backgroundMusic: 0
---- !u!114 &3787902178976346660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a75ba529dcc5945849b84cc365ff95, type: 3}
-  m_Name: Ability Check
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -1736, y: 3656}
-  ports:
-    keys:
-    - entry
-    - success
-    - failed
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3787902178976346660}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: success
-      _node: {fileID: 3787902178976346660}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: failed
-      _node: {fileID: 3787902178976346660}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  success: 
-  failed: 
-  dialogText: 'Dexterity Save (DC 12): Try to catch yourself before falling off the
-    platform.'
-  dialogImage: {fileID: 8784828524176279599, guid: 3d46f289967b9f547b427a8d953a9149, type: 3}
-  difficultyCheckValue: 12
-  abilityCheck: 0
 --- !u!114 &3856113498901305742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4671,53 +4032,6 @@ MonoBehaviour:
     vun ek tal...\"\n "
   exit: 
   backgroundImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
-  backgroundMusic: 0
---- !u!114 &4629606580874549220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 344, y: 3448}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 4629606580874549220}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -5706963184595623886}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 4629606580874549220}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: "Occult Investigation (DC 12) or Arcana (DC 13): Study the constructs'
-    arcane weak points \u2192 Gain advantage on first attack.\n\nPersuasion (DC 15)
-    or Arcana (DC 14): Try to override or disrupt their aggression temporarily.\n"
-  exit: 
-  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &4975203007905252601
 MonoBehaviour:
@@ -4950,57 +4264,6 @@ MonoBehaviour:
   dialogText: "Fractured One (weakened): \n\n\"The Nexus\u2026 is splitting me. You
     must choose\u2026 what comes next.\""
   dialogImage: {fileID: 7722788307976010085, guid: 2759292088eab694b84d60743aa00062, type: 3}
-  backgroundMusic: 0
---- !u!114 &5317349972366283891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -232, y: 3912}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 5317349972366283891}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: b
-        node: {fileID: 211926345268902803}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 5317349972366283891}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -3646945135345767072}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: 'The Chronicle of Icarus continues to shake inside the satchel, but
-    you ignore it or fail to notice in time.
-
-'
-  exit: 
-  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &5384673542416476721
 MonoBehaviour:
@@ -5423,52 +4686,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 505155827706554852, guid: 0d9ef847d6b87d7418e507b79261b31b, type: 3}
   backgroundMusic: 0
---- !u!114 &6049091444371789007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 360, y: 3896}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 6049091444371789007}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -3646945135345767072}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 6049091444371789007}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 
-  dialogText: From the dark ruins, shadows start to shift. Figures begin to emerge,
-    their forms half stone, half writhing shadow.
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &6102758729628216067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5685,6 +4902,9 @@ MonoBehaviour:
       connections:
       - fieldName: b
         node: {fileID: -7598961546941476861}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 8163176943239057444}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -6313,7 +5533,10 @@ MonoBehaviour:
       _node: {fileID: 8163176943239057444}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 6442321563564542835}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
