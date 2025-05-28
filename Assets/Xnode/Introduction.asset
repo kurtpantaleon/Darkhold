@@ -409,7 +409,10 @@ MonoBehaviour:
       _node: {fileID: -7598961546941476861}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: -3466295216163330527}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -418,7 +421,10 @@ MonoBehaviour:
       _node: {fileID: -7598961546941476861}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 8163176943239057444}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -427,7 +433,10 @@ MonoBehaviour:
       _node: {fileID: -7598961546941476861}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 6442321563564542835}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -457,6 +466,54 @@ MonoBehaviour:
   d: 
   dialogText: "Fractured One: \n\n\"Then... you are brave. And cursed.\""
   dialogImage: {fileID: 0}
+  backgroundMusic: 0
+--- !u!114 &-7443622745553252428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
+  m_Name: Simple Dialog V4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1262.688, y: 2439.5754}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7443622745553252428}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: 6442321563564542835}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7443622745553252428}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5645420486945672343}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  dialogText: Stay and Face it, fight for your Lives
+  exit: 
+  backgroundImage: {fileID: 0}
   backgroundMusic: 0
 --- !u!114 &-6978408506084017576
 MonoBehaviour:
@@ -496,7 +553,10 @@ MonoBehaviour:
       _node: {fileID: -6978408506084017576}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -728539713661948641}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -505,7 +565,10 @@ MonoBehaviour:
       _node: {fileID: -6978408506084017576}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -728539713661948641}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -550,7 +613,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -2104, y: 2744}
+  position: {x: -2104, y: 3624}
   ports:
     keys:
     - entry
@@ -767,7 +830,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -232, y: 2600}
+  position: {x: -232, y: 3480}
   ports:
     keys:
     - entry
@@ -817,7 +880,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 72, y: 2568}
+  position: {x: 72, y: 3448}
   ports:
     keys:
     - entry
@@ -1001,7 +1064,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1128, y: 2776}
+  position: {x: -1128, y: 3656}
   ports:
     keys:
     - entry
@@ -1654,7 +1717,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 72, y: 3000}
+  position: {x: 72, y: 3880}
   ports:
     keys:
     - entry
@@ -1712,7 +1775,10 @@ MonoBehaviour:
       _node: {fileID: -3466295216163330527}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: -2893047851274365321}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -1721,13 +1787,16 @@ MonoBehaviour:
       _node: {fileID: -3466295216163330527}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -7598961546941476861}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: "Narrator:\n\"You are remembered not as warriors\u2014but as saviors.\""
+  dialogText: "\n\"You are remembered not as warriors\u2014but as saviors.\""
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
@@ -2079,7 +2148,10 @@ MonoBehaviour:
       _node: {fileID: -2893047851274365321}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: 5095794839090398834}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -2088,7 +2160,10 @@ MonoBehaviour:
       _node: {fileID: -2893047851274365321}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -3466295216163330527}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2122,7 +2197,7 @@ MonoBehaviour:
       _dynamic: 0
   entry: 
   a: ' [Accept Gift] '
-  b: '[Mourn and Leave] '
+  b: 
   c: 
   d: 
   dialogText: "Fractured One: \n\n\"Then... I leave it to you. Save what\u2019s left
@@ -2191,7 +2266,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1411.0217, y: 2777.557}
+  position: {x: -1400, y: 3672}
   ports:
     keys:
     - entry
@@ -2419,7 +2494,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1272, y: 2840}
+  position: {x: 1272, y: 3720}
   ports:
     keys:
     - entry
@@ -2762,7 +2837,16 @@ MonoBehaviour:
       _node: {fileID: -728539713661948641}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: 3701364436982733990}
+        reroutePoints: []
+      - fieldName: a
+        node: {fileID: -6978408506084017576}
+        reroutePoints: []
+      - fieldName: b
+        node: {fileID: -6978408506084017576}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -3117,7 +3201,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 664, y: 2808}
+  position: {x: 664, y: 3688}
   ports:
     keys:
     - entry
@@ -3263,6 +3347,7 @@ MonoBehaviour:
   - {fileID: 6277165164327818683}
   - {fileID: -3000070651748463848}
   - {fileID: -5120014325748819731}
+  - {fileID: -7443622745553252428}
 --- !u!114 &104915439952916031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,7 +3411,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -584, y: 2744}
+  position: {x: -584, y: 3624}
   ports:
     keys:
     - entry
@@ -4026,7 +4111,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -856, y: 2776}
+  position: {x: -856, y: 3656}
   ports:
     keys:
     - entry
@@ -4195,7 +4280,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 952, y: 2808}
+  position: {x: 952, y: 3688}
   ports:
     keys:
     - entry
@@ -4319,7 +4404,10 @@ MonoBehaviour:
       _node: {fileID: 3701364436982733990}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -728539713661948641}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4373,7 +4461,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1736, y: 2776}
+  position: {x: -1736, y: 3656}
   ports:
     keys:
     - entry
@@ -4576,7 +4664,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 344, y: 2568}
+  position: {x: 344, y: 3448}
   ports:
     keys:
     - entry
@@ -4795,7 +4883,10 @@ MonoBehaviour:
       _node: {fileID: 5095794839090398834}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -2893047851274365321}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4829,8 +4920,8 @@ MonoBehaviour:
       _dynamic: 0
   entry: 
   a: "\u201CLet go. We\u2019ll fix this.\u201D"
-  b: "\u201CI\u2019ll take your place.\u201D "
-  c: "\u201CThis ends now!\u201D"
+  b: 
+  c: 
   d: 
   dialogText: "Fractured One (weakened): \n\n\"The Nexus\u2026 is splitting me. You
     must choose\u2026 what comes next.\""
@@ -4849,7 +4940,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -232, y: 3032}
+  position: {x: -232, y: 3912}
   ports:
     keys:
     - entry
@@ -5155,7 +5246,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1784, y: 2952}
+  position: {x: 1816, y: 2424}
   ports:
     keys:
     - entry
@@ -5164,7 +5255,13 @@ MonoBehaviour:
       _node: {fileID: 5645420486945672343}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 5909969628475745536}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: -7443622745553252428}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -5277,7 +5374,10 @@ MonoBehaviour:
       _node: {fileID: 5909969628475745536}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: 6442321563564542835}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -5286,7 +5386,10 @@ MonoBehaviour:
       _node: {fileID: 5909969628475745536}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 5645420486945672343}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -5309,7 +5412,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 360, y: 3016}
+  position: {x: 360, y: 3896}
   ports:
     keys:
     - entry
@@ -5552,7 +5655,10 @@ MonoBehaviour:
       _node: {fileID: 6442321563564542835}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: b
+        node: {fileID: -7598961546941476861}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -5561,7 +5667,10 @@ MonoBehaviour:
       _node: {fileID: 6442321563564542835}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 5909969628475745536}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -5570,7 +5679,10 @@ MonoBehaviour:
       _node: {fileID: 6442321563564542835}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -7443622745553252428}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -6153,7 +6265,10 @@ MonoBehaviour:
       _node: {fileID: 8163176943239057444}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: a
+        node: {fileID: -7598961546941476861}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
