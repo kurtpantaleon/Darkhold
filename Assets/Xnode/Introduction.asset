@@ -86,7 +86,7 @@ MonoBehaviour:
   d: 
   dialogText: "You arrive at a shattered bridge, hanging over a vast, dark abyss.
     The only way forward is across\u2026 but how?"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 5916992838340607457, guid: d92a9d76b52d4be4b8b930afaec42704, type: 3}
   backgroundMusic: 0
 --- !u!114 &-8971251106953541923
 MonoBehaviour:
@@ -733,7 +733,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 7846795430956505067, guid: 96b6b8f43c4981049b9160a41a6d4354, type: 3}
   backgroundMusic: 0
 --- !u!114 &-6003579652334384864
 MonoBehaviour:
@@ -971,7 +971,7 @@ MonoBehaviour:
   entry: 
   dialogText: "\u201CI cast Fly to cross the bridge.\u201D"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 5916992838340607457, guid: d92a9d76b52d4be4b8b930afaec42704, type: 3}
   backgroundMusic: 0
 --- !u!114 &-5519454695932764117
 MonoBehaviour:
@@ -1061,7 +1061,7 @@ MonoBehaviour:
   c: 
   d: 
   dialogText: Choose
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -2602364568440791709, guid: fb00e1e4c6dcd7645b48fbe975c1197d, type: 3}
   backgroundMusic: 0
 --- !u!114 &-5488948589550088893
 MonoBehaviour:
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   entry: 
   dialogText: "\u201CI try to jump the gap.\u201D"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -5996666024084048363, guid: ed4aa7c74d717b349823cf2169d623f7, type: 3}
   backgroundMusic: 0
 --- !u!114 &-5216767645869338894
 MonoBehaviour:
@@ -1363,8 +1363,8 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: DC 13 TO GO UP
-  dialogImage: {fileID: 0}
-  difficultyCheckValue: 0
+  dialogImage: {fileID: -7385539174768160783, guid: 1e6d49b55a5bdaa479e172ddc9879134, type: 3}
+  difficultyCheckValue: 4
   abilityCheck: 0
 --- !u!114 &-4976993540422500375
 MonoBehaviour:
@@ -1858,7 +1858,7 @@ MonoBehaviour:
   entry: 
   dialogText: go to right path
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 5041924838486869233, guid: 4a6fb35749245764d972ad905c1067b6, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3292260498689921848
 MonoBehaviour:
@@ -2080,7 +2080,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 7846795430956505067, guid: 96b6b8f43c4981049b9160a41a6d4354, type: 3}
   backgroundMusic: 0
 --- !u!114 &-3000070651748463848
 MonoBehaviour:
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   dialogText: "Fail by less than 5:\nYour hands catch the edge! You're hanging\u2014someone
     must help pull you up quickly. 1d6 damage "
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 7846795430956505067, guid: 96b6b8f43c4981049b9160a41a6d4354, type: 3}
   backgroundMusic: 0
 --- !u!114 &-2893047851274365321
 MonoBehaviour:
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   dialogText: "The collapsed bridge stretches over a dark chasm, with faint blue
     lights pulsing below\u2014trapped fragments of the World Threads, flickering
     like dying stars.\n"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 5041924838486869233, guid: 4a6fb35749245764d972ad905c1067b6, type: 3}
   backgroundMusic: 0
 --- !u!114 &-2064128263157236765
 MonoBehaviour:
@@ -2594,7 +2594,7 @@ MonoBehaviour:
   dialogText: "You arrive at a shattered bridge, hanging over a vast, dark abyss.
     The only way forward is across\u2026 but how?"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 5916992838340607457, guid: d92a9d76b52d4be4b8b930afaec42704, type: 3}
   backgroundMusic: 0
 --- !u!114 &-1795220080086546366
 MonoBehaviour:
@@ -2823,7 +2823,7 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: "[Occult Investigation \u2013 DC 13]"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 73275080621379548, guid: e2074004023a6164b9c56cb879f8acbf, type: 3}
   difficultyCheckValue: 13
   abilityCheck: 0
 --- !u!114 &-728539713661948641
@@ -3197,7 +3197,7 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: "[Arcana Check \u2013 DC 15]"
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   difficultyCheckValue: 15
   abilityCheck: 0
 --- !u!114 &-180600330931689885
@@ -3359,6 +3359,7 @@ MonoBehaviour:
   - {fileID: -3000070651748463848}
   - {fileID: -5120014325748819731}
   - {fileID: -7443622745553252428}
+  - {fileID: 3037081354862380785}
 --- !u!114 &104915439952916031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4107,7 +4108,7 @@ MonoBehaviour:
 
 '
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -886569190808166198, guid: 462c271e88250f34eb32412e550a6708, type: 3}
   backgroundMusic: 0
 --- !u!114 &2986843412522654872
 MonoBehaviour:
@@ -4561,7 +4562,7 @@ MonoBehaviour:
   dialogText: A whispering voice calls from below, speaking in a language not entirely
     human. It beckons softly, as if inviting the players deeper into the unknown.
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 5041924838486869233, guid: 4a6fb35749245764d972ad905c1067b6, type: 3}
   backgroundMusic: 0
 --- !u!114 &4068141803615560305
 MonoBehaviour:
@@ -4660,7 +4661,7 @@ MonoBehaviour:
     alien, rising from the abyss.\nWhispering Voice (faint, echoing):\n \"Esh-tara...
     vun ek tal...\"\n "
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   backgroundMusic: 0
 --- !u!114 &4629606580874549220
 MonoBehaviour:
@@ -4791,7 +4792,7 @@ MonoBehaviour:
   c: 
   d: 
   dialogText: "Whispering Voice\n\n "
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   backgroundMusic: 0
 --- !u!114 &5080593765642105882
 MonoBehaviour:
@@ -4856,8 +4857,8 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: (Athletics DC 14
-  dialogImage: {fileID: 0}
-  difficultyCheckValue: 0
+  dialogImage: {fileID: -3658677536497691220, guid: 5b0bf6476ed0083478908aef90893230, type: 3}
+  difficultyCheckValue: 2
   abilityCheck: 0
 --- !u!114 &5095794839090398834
 MonoBehaviour:
@@ -5591,7 +5592,7 @@ MonoBehaviour:
   dialogText: 'Success: The voice is not speech but rather the remnants of a long-forgotten
     spell, repeating itself in an endless loop.'
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -2602364568440791709, guid: fb00e1e4c6dcd7645b48fbe975c1197d, type: 3}
   backgroundMusic: 0
 --- !u!114 &6277165164327818683
 MonoBehaviour:
@@ -5641,7 +5642,7 @@ MonoBehaviour:
     rune-forged pedestal embedded with an ancient artifact which looks like will
     be destroyed when disturbed. (choose 1)
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 1686016115018176678, guid: 886cd158ad891a140bfc31cf27b2d9ef, type: 3}
   backgroundMusic: 0
 --- !u!114 &6442321563564542835
 MonoBehaviour:
@@ -5774,7 +5775,7 @@ MonoBehaviour:
   entry: 
   dialogText: "\u201CI open the Chronicle of Icarus.\u201D"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 6044068552321183505, guid: 2b2f468e1ea75ec498159b778f0d48d6, type: 3}
   backgroundMusic: 0
 --- !u!114 &6617543076154135671
 MonoBehaviour:
@@ -5912,7 +5913,7 @@ MonoBehaviour:
   entry: 
   dialogText: ' Fail: You only hear more fragments. The words slip through your understanding.'
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 5505222926983025668, guid: 64c6bb3eb0c90c94894d967725bdf246, type: 3}
   backgroundMusic: 0
 --- !u!114 &7190929891367314152
 MonoBehaviour:
@@ -5961,7 +5962,7 @@ MonoBehaviour:
   dialogText: " Success: The whispers are a warning, not an invitation\u2014something
     below is bound, but not forever."
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 73275080621379548, guid: e2074004023a6164b9c56cb879f8acbf, type: 3}
   backgroundMusic: 0
 --- !u!114 &7407673759631357768
 MonoBehaviour:
@@ -6063,7 +6064,7 @@ MonoBehaviour:
   dialogText: "\u201CYou may now cross the bridge safely, if you trust the Chronicle\u2019s
     vision.\u201D"
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -6265054668056534801, guid: acb8e6e0bb5931f47966ba906ea4a8c2, type: 3}
   backgroundMusic: 0
 --- !u!114 &7710237216507268422
 MonoBehaviour:
@@ -6150,7 +6151,7 @@ MonoBehaviour:
   c: 
   d: 
   dialogText: Do you attempt to understand the whispers?
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   backgroundMusic: 0
 --- !u!114 &8024521814443869360
 MonoBehaviour:
@@ -6372,7 +6373,7 @@ MonoBehaviour:
   success: 
   failed: 
   dialogText: 'Condition: Player Arcane Persuasion >= 16'
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 5505222926983025668, guid: 64c6bb3eb0c90c94894d967725bdf246, type: 3}
   difficultyCheckValue: 16
   abilityCheck: 18
 --- !u!114 &8663985849092143210
@@ -6422,7 +6423,7 @@ MonoBehaviour:
   dialogText: 'Fail: The whispers twist in your mind. You can''t tell if they''re
     calling or warning... or both.'
   exit: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -3821050597722652387, guid: 165173a5bfedd9f4780ebc69689fe036, type: 3}
   backgroundMusic: 0
 --- !u!114 &8714072624130116932
 MonoBehaviour:
