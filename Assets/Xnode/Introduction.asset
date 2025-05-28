@@ -170,6 +170,9 @@ MonoBehaviour:
       - fieldName: exit
         node: {fileID: -2462288829147484754}
         reroutePoints: []
+      - fieldName: exit
+        node: {fileID: -7636084445555933826}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -350,7 +353,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 200, y: -568}
+  position: {x: 200, y: -504}
   ports:
     keys:
     - entry
@@ -372,7 +375,10 @@ MonoBehaviour:
       _node: {fileID: -7636084445555933826}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -8393671868751012354}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -943,6 +949,9 @@ MonoBehaviour:
       - fieldName: a
         node: {fileID: -9067205345927295595}
         reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 7407673759631357768}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -951,7 +960,10 @@ MonoBehaviour:
       _node: {fileID: -5558867384226706777}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 7685954324748334370}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1155,7 +1167,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1064, y: -824}
+  position: {x: -1064, y: -840}
   ports:
     keys:
     - entry
@@ -1844,7 +1856,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  dialogText: 
+  dialogText: go to right path
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
@@ -3088,7 +3100,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 552, y: 1480}
+  position: {x: 360, y: 1576}
   ports:
     keys:
     - entry
@@ -3321,7 +3333,6 @@ MonoBehaviour:
   - {fileID: 768827723378838381}
   - {fileID: -7636084445555933826}
   - {fileID: -2462288829147484754}
-  - {fileID: 3037081354862380785}
   - {fileID: 1633544474544374325}
   - {fileID: -8393671868751012354}
   - {fileID: 7407673759631357768}
@@ -4140,51 +4151,6 @@ MonoBehaviour:
   exit: 
   backgroundImage: {fileID: 0}
   backgroundMusic: 0
---- !u!114 &3037081354862380785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc94c254eb490047b4acc6529ac6365, type: 3}
-  m_Name: Simple Dialog V4
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -376, y: -424}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3037081354862380785}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 3037081354862380785}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  entry: 11
-  dialogText: "The Chronicles reveals a message might be useful\n\n\u201CThe beginning
-    is marked by the one that faces the dawn.\u201D\n\u201CThe second follows the
-    mark of endings, shadowed by the dusk.\u201D\n\u201CThe last bears the path of
-    balance, standing between extremes.\u201D"
-  exit: 
-  backgroundImage: {fileID: 0}
-  backgroundMusic: 0
 --- !u!114 &3123392315559188828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4809,6 +4775,9 @@ MonoBehaviour:
       connections:
       - fieldName: exit
         node: {fileID: -5305823419752644151}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 7685954324748334370}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -5984,7 +5953,10 @@ MonoBehaviour:
       _node: {fileID: 7407673759631357768}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -5558867384226706777}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -6009,7 +5981,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V4
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1672, y: -216}
+  position: {x: 1640, y: -280}
   ports:
     keys:
     - entry
@@ -6023,6 +5995,9 @@ MonoBehaviour:
       - fieldName: exit
         node: {fileID: 6443892631831589778}
         reroutePoints: []
+      - fieldName: exit
+        node: {fileID: -5558867384226706777}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -6031,7 +6006,10 @@ MonoBehaviour:
       _node: {fileID: 7685954324748334370}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 5080593765642105882}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0

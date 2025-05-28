@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Short
   race: Human
   expertise: 
-  characterSprite: {fileID: -803138403708184043, guid: fd96c2d592687b541a4c6120d90e3af1, type: 3}
+  characterSprite: {fileID: 7072255360131711651, guid: 48f2e8c954fa1bd4ba4cc5406ecae87f, type: 3}
   strength: 10
   dexterity: 8
   constitution: 6

@@ -20,7 +20,7 @@ MonoBehaviour:
   hair: Long
   race: Elf
   expertise: 
-  characterSprite: {fileID: -1367291550803677559, guid: 6f66764fa9ef2d54e91e3a2672419039, type: 3}
+  characterSprite: {fileID: -3998912765165539191, guid: ec818ada4ec48ab4887cc58a5a502a4e, type: 3}
   strength: 6
   dexterity: 8
   constitution: 5
